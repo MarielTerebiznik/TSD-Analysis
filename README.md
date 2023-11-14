@@ -22,4 +22,4 @@ Included in this package is
 2) a phylogeny of species included in the dataset
 3) Code to reformat data, run MCMCglmm models, and model selection for the sex ratio data set
 
-To  run this code, download the data set and phylogeny and save to your working directory. Then run the code in order to first reformat the data into a binary data set, run that data set through each model, identify the best model through model selection.
+To  run this code, download the data set and phylogeny and save to your working directory. Then run the code in order to first reformat the data into a binary data set, run that data set through each model, identify the best model through model selection. Running each model takes a handful of hours.
