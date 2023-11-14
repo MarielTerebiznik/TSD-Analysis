@@ -23,3 +23,21 @@ Included in this package is
 3) Code to reformat data, run MCMCglmm models, and model selection for the sex ratio data set
 
 To  run this code, download the data set and phylogeny and save to your working directory. Then run the code in order to first reformat the data into a binary data set, run that data set through each model, identify the best model through model selection. Running each model takes a handful of hours.
+
+**Sex Ratio Dataset Description**
+This is a unique data set of 682 sex ratio records representing 182 species of reptiles from 601 populations. The data set was assembled from previously published literature of Bokony et al. (2019), with records from ROSIE, the Reptilian Offspring Sex and Incubation Environment (Krueger and Janzen 2022; ROSIE, 2021; v1.0.0), and personal communications. Inclusion criteria for each sex ratio datum were 1) recorded from a natural, unmanipulated population using 2) non-sex biased capture methods and 3) determined by reliable sexing methods with 4) a recorded sample size and 5) a life stage of sexed individuals.
+
+For each record, the data consists of:
+
+-  a species name 
+- a population ID
+- taxon: lizard, croc, turtle, snake
+- their citation or citation code
+- life stage: hatchling, juvenile adult
+- sex ratio as proportion male
+- supertaxa: whether the species belongs to a sister clade of crocodilians and turtles ‘crocoturtle’ or squamates and tuatara ’squamatara to test phylogenetic history model
+- life history: whether the species belongs to crocodilians, turtles, and the tuatara ‘CTT’ that exhibit long-lived, late maturing life history, or squamates ’S’ that have short-lived, early maturing life histories to test the life history model
+- sex determination: whether the species has genotypic sex determination (GSD) or temperature-dependent sex determination (TSD)
+- SDM type: type of sex determining mechanism of GSD, TSD Ia, TSD Ib, TSD II
+- sex determination source: reference for sex determining mechanism for the species
+- Notes
