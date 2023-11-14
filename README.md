@@ -49,3 +49,7 @@ For each record, the data consists of:
 **Phylogeny Description**
 
 This phylogeny was created based on the phylogeny used in Bókony et al. (2019). Any species in this sex ratio data set not in the Bókony et al. (2019) were included using phytools package in R with the placement of each species was based on the same phylogenies Bókony et al. (2019) used to construct their phylogeny (Oaks 2011, Guillon et al. 2012, Pyron et al. 2013)
+
+
+**Citation Code Description**
+In the sex ratio data set, records from the Bokony et al (2019) data have citation codes rather than direct references in the dataset. This spreadsheet matches each citation code to its corresponding reference
