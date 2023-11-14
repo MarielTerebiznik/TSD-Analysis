@@ -1,0 +1,683 @@
+species,population.ID,taxon,Citation,Life.Stage,Sex.Ratio,SuperTaxa,LifeHistory,N,sex.determination,SDM.Type,SDM.Type.conservative,sex.det.source,Notes
+Acanthodactylus_erythrurus,1,lizards,1039,adult.sex.ratio,0.59,squamatara,S,166,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Acanthodactylus_erythrurus,1,lizards,1039,juvenile.sex.ratio,0.579,squamatara,S,114,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Acritoscincus_duperreyi,CK1,lizards,"Shine, R., Elphick, M. J., & Harlow, P. S. (1997). The influence of natural incubation environments on the phenotypic traits of hatchling lizards. Ecology, 78(8), 2559-2568.",birth.sex.ratio,0.50625,squamatara,S,320,GSD,GSD,GSD,species.in.TreeOfSex,Written as Bassiana_duperreyi in tree of sex
+Actinemys_marmorata,12,turtles,526,adult.sex.ratio,0.413,crocoturtle,CTT,281,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,9,turtles,525,adult.sex.ratio,0.62,crocoturtle,CTT,221,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,8,turtles,"518,  519",adult.sex.ratio,0.573,crocoturtle,CTT,82,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,3,turtles,520,adult.sex.ratio,0.514,crocoturtle,CTT,37,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,10,turtles,526,adult.sex.ratio,0.595,crocoturtle,CTT,79,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,13,turtles,524,adult.sex.ratio,0.539,crocoturtle,CTT,456,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,4,turtles,527,adult.sex.ratio,0.696,crocoturtle,CTT,102,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,5,turtles,532,adult.sex.ratio,0.679,crocoturtle,CTT,131,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,11,turtles,526,adult.sex.ratio,0.698,crocoturtle,CTT,86,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,14,turtles,528,adult.sex.ratio,0.517,crocoturtle,CTT,292,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,2,turtles,531,adult.sex.ratio,0.402,crocoturtle,CTT,241,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,6,turtles,529,adult.sex.ratio,0.529,crocoturtle,CTT,17,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Actinemys_marmorata,7,turtles,537,adult.sex.ratio,0.841,crocoturtle,CTT,52,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Agama_agama,15,lizards,1018,adult.sex.ratio,0.453,squamatara,S,53,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Agama_impalearis,16,lizards,1019,juvenile.sex.ratio,0.547,squamatara,S,148,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Agama_impalearis,CK2,lizards,"El Mouden, E. H., Znari, M., & Pieau, C. (2001). Effects of incubation temperature on embryonic development and sex determination in the North African agamid lizard, Agama impalearis. Herpetological Journal, 11(3), 101-108.",birth.sex.ratio,0.549180328,squamatara,S,122,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Agama_impalearis,16,lizards,1019,adult.sex.ratio,0.614,squamatara,S,277,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Agkistrodon_piscivorus,17,snakes,208,adult.sex.ratio,0.477,squamatara,S,132,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Aldabrachelys_gigantea,2032b,turtles,"2032, 2033",birth.sex.ratio,0.486,crocoturtle,CTT,37,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Aldabrachelys dussumieri in tree of sex data base; written as Dipsochelys dussemieri in turtle phylogeny file
+Aldabrachelys_gigantea,ROSIE1,turtles,"Swingland, I. R., & Coe, M. J. (1979). The natural regulation of giant tortoise populations on Aldabra Atoll: Recruitment. Philosophical Transactions of the Royal Society of London B, 286, 177-188.",birth.sex.ratio,0.4875,crocoturtle,CTT,80,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Aldabrachelys dussumieri in tree of sex data base; written as Dipsochelys dussemieri in turtle phylogeny file
+Aldabrachelys_gigantea,2033a,turtles,"2032, 2033",birth.sex.ratio,0.488,crocoturtle,CTT,43,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Aldabrachelys dussumieri in tree of sex data base; written as Dipsochelys dussemieri in turtle phylogeny file
+Alligator_mississippiensis,CK3,crocs,"Elsey, R. M. & Lang, J. W. (2014). Sex ratios of wild American alligator hatchlings in southwest Louisiana. Southeastern Naturalist, 13(2), 191-199.",birth.sex.ratio,0.270938023,crocoturtle,CTT,7164,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,CK5,crocs,"Rhodes, W. E., & Lang, J. W. (1995). Sex ratios of naturally-incubated alligator hatchlings: Field techniques and initial results. Proceedings of the Annual Conference of the Southeastern Association of Fish and Wildlife Agencies, 49, 640-646.",birth.sex.ratio,0.212082262,crocoturtle,CTT,778,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,CK6,crocs,"Rhodes, W. E., & Lang, J. W. (1996). Alligator nest temperatures and hatchling sex ratios in coastal South Carolina. Proceedings of the Annual Conference of the Southeastern Association of Fish and Wildlife Agencies, 50, 520-531.",birth.sex.ratio,0.422839506,crocoturtle,CTT,648,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,19,crocs,361,adult.sex.ratio,0.472,crocoturtle,CTT,123,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,20,crocs,359,juvenile.sex.ratio,0.688,crocoturtle,CTT,1834,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,CK4,crocs,"Ferguson, M. W. J., & Joanen, T. (1982). Temperature of egg incubation determines sex in Alligator mississippiensis. Nature, 296, 850-853.",birth.sex.ratio,0.169055858,crocoturtle,CTT,8092,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,23,crocs,"354, m1",juvenile.sex.ratio,0.638,crocoturtle,CTT,4151,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,20,crocs,359,adult.sex.ratio,0.49,crocoturtle,CTT,3372,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,22,crocs,341,juvenile.sex.ratio,0.58,crocoturtle,CTT,2936,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Alligator_mississippiensis,19,crocs,361,juvenile.sex.ratio,0.607,crocoturtle,CTT,1700,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Amblyrhynchus_cristatus,26,lizards,"v14, v15",adult.sex.ratio,0.506,squamatara,S,917,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Amblyrhynchus_cristatus,26,lizards,"v14, v15",birth.sex.ratio,0.488,squamatara,S,1042,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Ameiva_erythrocephala,27,lizards,6,adult.sex.ratio,0.278,squamatara,S,18,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Amphibolurus_muricatus,30,lizards,1020,birth.sex.ratio,0.591,squamatara,S,22,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Amphibolurus_muricatus,29,lizards,1053,adult.sex.ratio,0.565,squamatara,S,23,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Anolis_angusticeps,32,lizards,"v2, v2new",adult.sex.ratio,0.463,squamatara,S,23,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_angusticeps,31,lizards,"v2, v2new",adult.sex.ratio,0.444,squamatara,S,10,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_carolinensis,33,lizards,9,adult.sex.ratio,0.474,squamatara,S,274,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Anolis_cupreus,35,lizards,mod.dec17,adult.sex.ratio,0.435,squamatara,S,168,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_cybotes,36,lizards,14,adult.sex.ratio,0.4,squamatara,S,45,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_distichus,38,lizards,"v2, v2new",adult.sex.ratio,0.545,squamatara,S,49,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Anolis_distichus,37,lizards,"v2, v2new",adult.sex.ratio,0.571,squamatara,S,12,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Anolis_equestris,39,lizards,18,adult.sex.ratio,0.565,squamatara,S,62,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_garmani,41,lizards,20,adult.sex.ratio,0.445,squamatara,S,1174,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_limifrons,44,lizards,v1,adult.sex.ratio,0.418,squamatara,S,349,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_limifrons,43,lizards,v1,adult.sex.ratio,0.522,squamatara,S,634,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_limifrons,46,lizards,v1,adult.sex.ratio,0.526,squamatara,S,291,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_limifrons,42,lizards,new1,adult.sex.ratio,0.559,squamatara,S,383,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_limifrons,45,lizards,v1,adult.sex.ratio,0.469,squamatara,S,439,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_limifrons,47,lizards,v1,adult.sex.ratio,0.543,squamatara,S,278,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_lineatopus,48,lizards,v3,birth.sex.ratio,0.5,squamatara,S,56,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_mariarum,49,lizards,g20,adult.sex.ratio,0.72,squamatara,S,100,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_mariarum,50,lizards,g20,adult.sex.ratio,0.576,squamatara,S,99,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_nebulosus,52,lizards,27,adult.sex.ratio,0.495,squamatara,S,297,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Anolis_sagrei,54,lizards,na1,birth.sex.ratio,0.52,squamatara,S,527,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_sagrei,55,lizards,"v2, v2new",adult.sex.ratio,0.475,squamatara,S,19,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_sagrei,56,lizards,"v2, v2new",adult.sex.ratio,0.433,squamatara,S,144,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_sagrei,57,lizards,"v2, v2new, m2",adult.sex.ratio,0.41,squamatara,S,141,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Anolis_schwartzi,58,lizards,34,adult.sex.ratio,0.398,squamatara,S,211,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Apalone_spinifera,ROSIE2,turtles,"Vogt, R. C., & Bull, J. J. (1982). Genetic sex determination in the spiny softshell Trionyx spiniferus (Testudines: Trionychidae). Copeia, 1982(3), 699-700.",birth.sex.ratio,0.504854369,crocoturtle,CTT,103,GSD,GSD,GSD,Badenhorst_et_al._2013._Chromosome_Research,NA
+Apalone_spinifera,59,turtles,139,adult.sex.ratio,0.641,crocoturtle,CTT,43,GSD,GSD,GSD,Badenhorst_et_al._2013._Chromosome_Research,NA
+Apalone_spinifera,63,turtles,547,adult.sex.ratio,0.67,crocoturtle,CTT,327,GSD,GSD,GSD,Badenhorst_et_al._2013._Chromosome_Research,NA
+Apalone_spinifera,61,turtles,481,adult.sex.ratio,0.576,crocoturtle,CTT,33,GSD,GSD,GSD,Badenhorst_et_al._2013._Chromosome_Research,NA
+Apalone_spinifera,62,turtles,556,adult.sex.ratio,0.598,crocoturtle,CTT,107,GSD,GSD,GSD,Badenhorst_et_al._2013._Chromosome_Research,NA
+Basiliscus_vittatus,64,lizards,mod24,juvenile.sex.ratio,0.491,squamatara,S,747,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Basiliscus_vittatus,64,lizards,mod24,adult.sex.ratio,0.374,squamatara,S,305,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Batagur_baska,ROSIE3,turtles,"Praschag, P., Weissenbacher, A., & Ghosh, R. (2013). Another successful year for project Batagur baska. Turtle Survival Magazine, 2013, 32-33.",birth.sex.ratio,1,crocoturtle,CTT,12,TSD,TSD Ia,TSD Ia,Moll et al (2015) Conservbation Biology of Freshwater turtles and tortoises,NA
+Boa_constrictor,65,snakes,207,adult.sex.ratio,0.528,squamatara,S,106,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Caiman_crocodilus,66,crocs,254,juvenile.sex.ratio,0.684,crocoturtle,CTT,38,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Caiman_crocodilus,CK7,crocs,"Ouboter, P. E., & Nanhoe, L. M. R. (1987). Notes on nesting and parental care in Caiman crocodilus crocodilus in northern Suriname and an analysis of crocodilian nesting habitats. Amphibia-Reptilia, 8(4), 331-348.",birth.sex.ratio,0.479727733,crocoturtle,CTT,154,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Caiman_crocodilus,66,crocs,254,adult.sex.ratio,0.618,crocoturtle,CTT,34,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Caiman_latirostris,69,crocs,293,adult.sex.ratio,0.5,crocoturtle,CTT,8,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Caiman_latirostris,68,crocs,290,birth.sex.ratio,0.286,crocoturtle,CTT,1284,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Caiman_latirostris,69,crocs,293,juvenile.sex.ratio,0.75,crocoturtle,CTT,28,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Caiman_yacare,CK8,crocs,"Crawshaw, P. G., Jr. (1987). Nesting ecology of the Paraguayan caiman (Caiman yacare) in the Pantanal of Mato Grosso, Brazil (Master's thesis, University of Florida, Gainesville, Florida). Retrieved from https://ufdcimages.uflib.ufl.edu/AA/00/03/92/22/00001/AA00039222_00001.pdf",birth.sex.ratio,0.322580645,crocoturtle,CTT,31,TSD,TSD II,TSD II,"Lang, J. W., and H. V. Andrews. 1994. Temperature-dependent sex determination in crocodilians",NA
+Caretta_caretta,74,turtles,387,birth.sex.ratio,0.335,crocoturtle,CTT,510,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,75,turtles,"402, 388, 391",birth.sex.ratio,0.106,crocoturtle,CTT,764,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,76,turtles,392,adult.sex.ratio,0.455,crocoturtle,CTT,176,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE12,turtles,"Wyneken, J., & Lolavar, A. (2015). Loggerhead sea turtle environmental sex determination: Implications of moisture and temperature for climate change based predictions for species survival. Journal of Experimental Zoology B, 324(3), 295-314.",birth.sex.ratio,0.175332958,crocoturtle,CTT,910,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE6,turtles,"Limpus, C. J., Reed, P., & Miller, J. D. (1983). Islands and turtles. The influence of choice of nesting beach on sex ratio. In: Proceedings of the Inaugural Great Barrier Reef Conference, August 28 - September 2, 1983, Townsville.",birth.sex.ratio,0.393421053,crocoturtle,CTT,760,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE7,turtles,"Lolavar, A., & Wyneken, J. (2015). Effect of rainfall on loggerhead turtle nest temperatures, sand temperatures and hatchling sex. Endangered Species Research, 28(3), 235-247.",birth.sex.ratio,0.142857143,crocoturtle,CTT,364,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,87,turtles,389,birth.sex.ratio,0.607,crocoturtle,CTT,28,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,78,turtles,413,birth.sex.ratio,0.389,crocoturtle,CTT,90,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE11,turtles,"Sarı, F., & Kaska, Y. (2015). Loggerhead sea turtle hatchling sex ratio differences between two nesting beaches in Turkey. Israel Journal of Ecology and Evolution, 61(3-4), 115-129.",birth.sex.ratio,0.444444444,crocoturtle,CTT,423,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,84,turtles,399,adult.sex.ratio,0.64,crocoturtle,CTT,72,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,86,turtles,400,birth.sex.ratio,0.23,crocoturtle,CTT,421,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE5,turtles,"Kaska, Y., Downie, R., Tippett, R., & Furness, R. W. (1998). Natural temperature regimes for loggerhead and green turtle nests in the eastern Mediterranean. Canadian Journal of Zoology, 76(4), 723-729.",birth.sex.ratio,0.206349206,crocoturtle,CTT,126,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,80,turtles,40,adult.sex.ratio,0.129,crocoturtle,CTT,31,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,80,turtles,40,juvenile.sex.ratio,0.333,crocoturtle,CTT,18,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,79,turtles,146,juvenile.sex.ratio,0.333,crocoturtle,CTT,207,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE9,turtles,"Mrosovsky, N., & Provancha, J. (1989). Sex ratio of loggerhead sea turtles hatching on a Florida beach. Canadian Journal of Zoology, 67(10), 2533-2539.",birth.sex.ratio,0.051851852,crocoturtle,CTT,405,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,81,turtles,39,juvenile.sex.ratio,0.326,crocoturtle,CTT,89,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE10,turtles,"Mrosovsky, N., Baptistotte, C., & Godfrey, M. H. (1999). Validation of incubation duration as an index of the sex ratio of hatchling sea turtles. Canadian Journal of Zoology, 77(5), 831-835.",birth.sex.ratio,0.335294118,crocoturtle,CTT,510,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,82,turtles,409,adult.sex.ratio,0.485,crocoturtle,CTT,97,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,85,turtles,409,adult.sex.ratio,0.6,crocoturtle,CTT,45,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,75,turtles,"402, 388, 391",juvenile.sex.ratio,0.318,crocoturtle,CTT,22,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,73,turtles,145mort,juvenile.sex.ratio,0.75,crocoturtle,CTT,184,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,75,turtles,"402, 388, 391",adult.sex.ratio,0.538,crocoturtle,CTT,586,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE4,turtles,"Fuller, W. J., Godley, B. J., Hodgson, D. J., Reece, S. E., Witt, M. J., & Broderick, A. C. (2013). Importance of spatio-temporal data for predicting the effects of climate change on marine turtle sex ratios. Marine Ecology Progress Series, 488, 267-274.",birth.sex.ratio,0.125,crocoturtle,CTT,16,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,73,turtles,145mort,adult.sex.ratio,0.713,crocoturtle,CTT,87,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Caretta_caretta,ROSIE8,turtles,"Maxwell, J. A., Motara, M. A., & Frank, G. H. (1988). A micro-environmental study of the effect of temperature on the sex ratios of the loggerhead turtle, Caretta caretta, from Tongaland, Natal. African Zoology, 23(4), 342-350.",birth.sex.ratio,0.62972973,crocoturtle,CTT,370,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Carettochelys_insculpta,90,turtles,378,birth.sex.ratio,0.5,crocoturtle,CTT,46,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Carettochelys_insculpta,91,turtles,380,birth.sex.ratio,0.307,crocoturtle,CTT,202,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Carettochelys_insculpta,92,turtles,379,adult.sex.ratio,0.542,crocoturtle,CTT,24,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Carettochelys_insculpta,89,turtles,377,birth.sex.ratio,0.273,crocoturtle,CTT,44,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Cerberus_schneiderii,93,snakes,209,adult.sex.ratio,0.51,squamatara,S,914,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Chelodina_longicollis,94,turtles,v8,adult.sex.ratio,0.57,crocoturtle,CTT,500,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Chelodina_longicollis,95,turtles,g54,birth.sex.ratio,0.525,crocoturtle,CTT,59,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE14,turtles,"King, R., Cheng, W.-H., Tseng, C.-T., Chen, H., & Cheng, I.-J. (2013). Estimating the sex ratio of green sea turtles (Chelonia mydas) in Taiwan by the nest temperature and histological methods. Journal of Experimental Marine Biology and Ecology, 445, 140-147.",birth.sex.ratio,0.237704918,crocoturtle,CTT,244,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE15,turtles,"Limpus, C. J., Reed, P., & Miller, J. D. (1983). Islands and turtles. The influence of choice of nesting beach on sex ratio. In: Proceedings of the Inaugural Great Barrier Reef Conference, August 28 - September 2, 1983, Townsville.",birth.sex.ratio,0.528,crocoturtle,CTT,249,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE13,turtles,"Kaska, Y., Downie, R., Tippett, R., & Furness, R. W. (1998). Natural temperature regimes for loggerhead and green turtle nests in the eastern Mediterranean. Canadian Journal of Zoology, 76(4), 723-729.",birth.sex.ratio,0.204819277,crocoturtle,CTT,83,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,110,turtles,153,juvenile.sex.ratio,0.29,crocoturtle,CTT,434,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,98,turtles,143,juvenile.sex.ratio,0.371,crocoturtle,CTT,342,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE19,turtles,"Tilley, D., Ball, S., Ellick, J., Godley, B. J., Weber, N., Weber, S. B., & Broderick, A. C. (2019). No evidence of fine scale thermal adaptation in green turtles. Journal of Experimental Marine Biology and Ecology, 514-515, 110-117.",birth.sex.ratio,0.038976378,crocoturtle,CTT,254,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,107,turtles,430,juvenile.sex.ratio,0.2,crocoturtle,CTT,75,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,109,turtles,153,juvenile.sex.ratio,0.364,crocoturtle,CTT,66,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE17,turtles,"Patrício, A. R., Marques, A., Barbosa, C., Broderick, A. C., Godley, B. J., Hawkes, L. A., Rebelo, R., Regalla, A., & Catry, P. (2017). Balanced primary sex ratios and resilience to climate change in a major sea turtle population. Marine Ecology Progress Series, 577, 189-203.",birth.sex.ratio,0.366412214,crocoturtle,CTT,131,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,108,turtles,429,juvenile.sex.ratio,0.3,crocoturtle,CTT,75,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,101,turtles,428,adult.sex.ratio,0.529,crocoturtle,CTT,242,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE16,turtles,"Mrosovsky, N. (1982). Sex ratio bias in hatchling sea turtles from artificially incubated eggs. Biological Conservation, 23(4), 309-314.",birth.sex.ratio,0.358333333,crocoturtle,CTT,120,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,104,turtles,439,birth.sex.ratio,0.104,crocoturtle,CTT,146,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,ROSIE18,turtles,"Spotila, J. R., Standora, E. A., Morreale, S. J., & Ruiz, G. J. (1987). Temperature dependent sex determination in the green turtle (Chelonia mydas): Effects on the sex ratio on a natural nesting beach. Herpetologica, 43(1), 74-81.",birth.sex.ratio,0.564912281,crocoturtle,CTT,285,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,100,turtles,432,juvenile.sex.ratio,0.37,crocoturtle,CTT,738,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,100,turtles,432,adult.sex.ratio,0.362,crocoturtle,CTT,620,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,97,turtles,431,juvenile.sex.ratio,0.305,crocoturtle,CTT,128,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,102,turtles,437,birth.sex.ratio,0.26,crocoturtle,CTT,96,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelonia_mydas,99,turtles,141mort,adult.sex.ratio,0.604,crocoturtle,CTT,235,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chelydra_serpentina,124,turtles,547,adult.sex.ratio,0.691,crocoturtle,CTT,152,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,115,turtles,206,adult.sex.ratio,0.636,crocoturtle,CTT,22,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,ROSIE20,turtles,"Freedberg, S., Lee, C., & Pappas, M. (2011). Agricultural practices alter sex ratios in a reptile with environmental sex determination. Biological Conservation, 144(3), 1159-1166.",birth.sex.ratio,0.9,crocoturtle,CTT,190,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,121,turtles,477,adult.sex.ratio,0.662,crocoturtle,CTT,71,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,117,turtles,493,adult.sex.ratio,0.484,crocoturtle,CTT,91,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,119,turtles,43,adult.sex.ratio,0.578,crocoturtle,CTT,230,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,MT3,turtles,unpublished data,birth.sex.ratio,0.3543983,crocoturtle,CTT,5127,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,114,turtles,559,adult.sex.ratio,0.81,crocoturtle,CTT,126,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,120,turtles,476,adult.sex.ratio,0.854,crocoturtle,CTT,41,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,113,turtles,494,adult.sex.ratio,0.477,crocoturtle,CTT,86,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,122,turtles,479,adult.sex.ratio,0.583,crocoturtle,CTT,571,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,116,turtles,42,adult.sex.ratio,0.529,crocoturtle,CTT,34,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,123,turtles,556,adult.sex.ratio,0.851,crocoturtle,CTT,87,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,125,turtles,477,adult.sex.ratio,0.423,crocoturtle,CTT,52,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chelydra_serpentina,112,turtles,500,adult.sex.ratio,0.464,crocoturtle,CTT,166,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Chlamydosaurus_kingii,130,lizards,1021,adult.sex.ratio,0.634,squamatara,S,215,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Christinus_marmoratus,132,lizards,1037,adult.sex.ratio,0.506,squamatara,S,83,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Christinus_marmoratus,131,lizards,1037,adult.sex.ratio,0.54,squamatara,S,137,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Chrysemys_picta,133,turtles,210,adult.sex.ratio,0.582,crocoturtle,CTT,55,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,138,turtles,210,adult.sex.ratio,0.362,crocoturtle,CTT,58,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,ROSIE25,turtles,"Vogt, R. C., & Bull, J. J. (1984). Ecology of hatchling sex ratio in map turtles. Ecology, 65(2), 582-587.",birth.sex.ratio,1,crocoturtle,CTT,18,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,ROSIE23,turtles,"Refsnider, J. M., & Janzen, F. J. (2012). Behavioural plasticity may compensate for climate change in a long-lived reptile with temperature-dependent sex determination. Biological Conservation, 152, 90-95.",birth.sex.ratio,0.873233909,crocoturtle,CTT,196,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,150,turtles,46,adult.sex.ratio,0.552,crocoturtle,CTT,480,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,ROSIE24,turtles,"Telemeco, R. S., Warner, D. A., Reida, M. K., & Janzen, F. J. (2013). Extreme developmental temperatures result in morphological abnormalities in painted turtles (Chrysemys picta): A climate change perspective. Integrative Zoology, 8(2), 197-208.",birth.sex.ratio,0.639450411,crocoturtle,CTT,399,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,ROSIE26,turtles,"Weisrock, D. W., & Janzen, F. J. (1999). Thermal and fitness‐related consequences of nest location in painted turtles (Chrysemys picta). Functional Ecology, 13(1), 94-101.",birth.sex.ratio,0.595278348,crocoturtle,CTT,91,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,153,turtles,43,adult.sex.ratio,0.513,crocoturtle,CTT,156,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,154,turtles,476,adult.sex.ratio,0.631,crocoturtle,CTT,157,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,148,turtles,549,adult.sex.ratio,0.3,crocoturtle,CTT,257,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,ROSIE21,turtles,"Janzen, F. J. (1994). Climate change and temperature-dependent sex determination in reptiles. Proceedings of the National Academy of Sciences, 91(16), 7487-7490.",birth.sex.ratio,0,crocoturtle,CTT,4,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,145,turtles,210,adult.sex.ratio,0.55,crocoturtle,CTT,100,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,MT1,turtles,unpublished data,adult.sex.ratio,0.246019,crocoturtle,CTT,404,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,155,turtles,576,adult.sex.ratio,0.564,crocoturtle,CTT,479,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,144,turtles,481,adult.sex.ratio,0.63,crocoturtle,CTT,27,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,158,turtles,547,adult.sex.ratio,0.719,crocoturtle,CTT,89,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,139,turtles,572,adult.sex.ratio,0.504,crocoturtle,CTT,141,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,ROSIE22,turtles,"Janzen, F. J. (1994). Vegetational cover predicts the sex ratio of hatchling turtles in natural nests. Ecology, 75(6), 1593-1599.",birth.sex.ratio,0.566448802,crocoturtle,CTT,918,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,143,turtles,481,adult.sex.ratio,0.47,crocoturtle,CTT,83,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,141,turtles,210,adult.sex.ratio,0.472,crocoturtle,CTT,36,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,162,turtles,"574, 571",birth.sex.ratio,0.124,crocoturtle,CTT,210,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,135,turtles,732,adult.sex.ratio,0.547,crocoturtle,CTT,503,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,146,turtles,"44, 212",adult.sex.ratio,0.495,crocoturtle,CTT,839,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,136,turtles,589,adult.sex.ratio,0.676,crocoturtle,CTT,114,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,134,turtles,589,adult.sex.ratio,0.725,crocoturtle,CTT,79,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,140,turtles,559,adult.sex.ratio,0.559,crocoturtle,CTT,34,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,157,turtles,556,adult.sex.ratio,0.835,crocoturtle,CTT,786,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,156,turtles,585,adult.sex.ratio,0.576,crocoturtle,CTT,125,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,137,turtles,584,adult.sex.ratio,0.512,crocoturtle,CTT,125,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,152,turtles,579,adult.sex.ratio,0.592,crocoturtle,CTT,71,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,162,turtles,"574, 571",adult.sex.ratio,0.295,crocoturtle,CTT,78,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Chrysemys_picta,142,turtles,578,adult.sex.ratio,0.539,crocoturtle,CTT,399,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Clemmys_guttata,168,turtles,155,adult.sex.ratio,0.518,crocoturtle,CTT,166,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Clemmys_guttata,163,turtles,593,adult.sex.ratio,0.447,crocoturtle,CTT,38,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Clemmys_guttata,165,turtles,595,adult.sex.ratio,0.436,crocoturtle,CTT,140,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Clemmys_guttata,169,turtles,154,adult.sex.ratio,0.207,crocoturtle,CTT,29,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Clemmys_guttata,166,turtles,598,adult.sex.ratio,0.46,crocoturtle,CTT,50,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Coluber_constrictor,170,snakes,211,adult.sex.ratio,0.587,squamatara,S,271,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Crocodylus_acutus,177,crocs,271,adult.sex.ratio,0.619,crocoturtle,CTT,21,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,178,crocs,51,juvenile.sex.ratio,0.586,crocoturtle,CTT,70,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,174,crocs,276,juvenile.sex.ratio,0.541,crocoturtle,CTT,101,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,175,crocs,273,juvenile.sex.ratio,0.775,crocoturtle,CTT,172,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,176,crocs,274,juvenile.sex.ratio,0.848,crocoturtle,CTT,46,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,175,crocs,273,birth.sex.ratio,0.779,crocoturtle,CTT,204,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,178,crocs,51,adult.sex.ratio,0.405,crocoturtle,CTT,37,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,177,crocs,271,juvenile.sex.ratio,0.816,crocoturtle,CTT,76,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,176,crocs,274,adult.sex.ratio,0.182,crocoturtle,CTT,11,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,174,crocs,276,adult.sex.ratio,0.541,crocoturtle,CTT,24,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,179,crocs,262,birth.sex.ratio,0.657,crocoturtle,CTT,137,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_acutus,175,crocs,273,adult.sex.ratio,0.593,crocoturtle,CTT,32,TSD,TSD II,TSD II,Charruaua et al (2017) Salamandra,NA
+Crocodylus_intermedius,CK9,crocs,"Ramo, C., Busto, B., & Utrera, A. (1992). Breeding and rearing the Orinoco crocodile Crocodylus intermedius in Venezuela. Biological Conservation, 60(2), 101-108.",juvenile.sex.ratio,0.3,crocoturtle,CTT,30,TSD,TSD II,TSD II,genus.or.family.in.TreeOfSex,NA
+Crocodylus_johnstoni,183,crocs,300,birth.sex.ratio,0.449,crocoturtle,CTT,285,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_johnstoni,181,crocs,300,birth.sex.ratio,0.182,crocoturtle,CTT,236,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_johnstoni,182,crocs,301,adult.sex.ratio,0.287,crocoturtle,CTT,265,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_johnstoni,182,crocs,301,juvenile.sex.ratio,0.376,crocoturtle,CTT,526,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_moreletii,184,crocs,284,juvenile.sex.ratio,0.749,crocoturtle,CTT,1091,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_moreletii,185,crocs,52,juvenile.sex.ratio,0.626,crocoturtle,CTT,754,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_moreletii,186,crocs,264,adult.sex.ratio,0.5,crocoturtle,CTT,28,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_moreletii,184,crocs,284,adult.sex.ratio,0.817,crocoturtle,CTT,262,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_moreletii,185,crocs,52,adult.sex.ratio,0.789,crocoturtle,CTT,185,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_moreletii,186,crocs,264,juvenile.sex.ratio,0.6,crocoturtle,CTT,55,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_niloticus,189,crocs,322,adult.sex.ratio,0.447,crocoturtle,CTT,77,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_niloticus,188,crocs,317,birth.sex.ratio,0.111,crocoturtle,CTT,108,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_niloticus,189,crocs,322,juvenile.sex.ratio,0.616,crocoturtle,CTT,1162,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crocodylus_niloticus,187,crocs,323,juvenile.sex.ratio,0.2,crocoturtle,CTT,12,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Crotalus_horridus,195,snakes,"v9, v10",adult.sex.ratio,0.549,squamatara,S,705,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Crotalus_horridus,194,snakes,g4,birth.sex.ratio,0.491,squamatara,S,588,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Crotalus_horridus,195,snakes,"v9, v10",birth.sex.ratio,0.476,squamatara,S,143,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Crotalus_viridis,197,snakes,new30,adult.sex.ratio,0.517,squamatara,S,174,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Crotalus_viridis,196,snakes,v11,birth.sex.ratio,0.427,squamatara,S,143,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Crotalus_viridis,198,snakes,g51,birth.sex.ratio,0.47,squamatara,S,115,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Ctenosaura_bakeri,200,lizards,53,adult.sex.ratio,0.564,squamatara,S,546,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Ctenosaura_bakeri,199,lizards,g30,adult.sex.ratio,0.456,squamatara,S,125,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Ctenosaura_melanosterna,201,lizards,"new32, new33",adult.sex.ratio,0.435,squamatara,S,207,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Ctenosaura_oedirhina,202,lizards,v12,adult.sex.ratio,0.379,squamatara,S,338,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Cyclura_cychlura,204,lizards,v16,adult.sex.ratio,0.529,squamatara,S,1074,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Cyclura_nubila,205,lizards,56,adult.sex.ratio,0.545,squamatara,S,42,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Deirochelys_reticularia,207,turtles,602,adult.sex.ratio,0.655,crocoturtle,CTT,29,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Deirochelys_reticularia,206,turtles,601,adult.sex.ratio,0.798,crocoturtle,CTT,119,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermatemys_mawii,209,turtles,503,adult.sex.ratio,0.2,crocoturtle,CTT,106,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermatemys_mawii,210,turtles,502,adult.sex.ratio,0.32,crocoturtle,CTT,44,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermatemys_mawii,208,turtles,503,adult.sex.ratio,0.25,crocoturtle,CTT,41,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermochelys_coriacea,ROSIE30,turtles,"Rimblot, F., Fretey, J., Lescure, J., & Pieau, C. (1983). Influence de la temperature sur la differentiation sexuelle des gonades chez la tortue luth (Dermochelys coriacea); Etude en incubation artificielle et naturelle.  Actes de Colloques, 1(1), 355-362.",birth.sex.ratio,0.100558659,crocoturtle,CTT,54,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermochelys_coriacea,ROSIE29,turtles,"Rimblot-Baly, F., Lescure, J., Fretey, J., & Pieau, C. (1986). Sensibilité à la température de la différenciation sexuelle chez la tortue Luth, Dermochelys coriacea (Vandelli, 1761); application des données de l'incubation artificielle à l'étude de la sex-ratio dans la nature. In Annales des sciences naturelles. Zoologie et biologie animale (Vol. 8, No. 4, pp. 277-290). Elsevier.",birth.sex.ratio,0.397217929,crocoturtle,CTT,647,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermochelys_coriacea,ROSIE27,turtles,"Lescure, J., Rimblot, F., Fretey, J., Renous, S., & Pieau, C. (1985). Influence de la température d'incubation des œufs sur la sex-ratio des nouveaux-nés de la tortue Luth, Dermochelys coriacea. Bulletin de la Société zoologique de France, 110(3), 355-359.",birth.sex.ratio,0.304477612,crocoturtle,CTT,335,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermochelys_coriacea,214,turtles,510,adult.sex.ratio,0.35,crocoturtle,CTT,80,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermochelys_coriacea,213,turtles,510,adult.sex.ratio,0.562,crocoturtle,CTT,28,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Dermochelys_coriacea,ROSIE28,turtles,"Mrosovsky, N., Dutton, P. H., & Whitmore, C. P. (1984). Sex ratios of two species of sea turtle nesting in Suriname. Canadian Journal of Zoology, 62(11), 2227-2239.",birth.sex.ratio,0.422161869,crocoturtle,CTT,263,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Drymarchon_couperi,215,snakes,"v17, m4",adult.sex.ratio,0.692,squamatara,S,224,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Elaphe_obsoleta,216,snakes,v19,juvenile.sex.ratio,0.265,squamatara,S,49,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Elaphe_obsoleta,216,snakes,v19,adult.sex.ratio,0.575,squamatara,S,153,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Elaphe_obsoleta,217,snakes,"v19, g57, g66",juvenile.sex.ratio,0.442,squamatara,S,95,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Elaphe_obsoleta,217,snakes,"v19, g57, g66",adult.sex.ratio,0.557,squamatara,S,106,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Elaphe_quadrivirgata,218,snakes,2634,adult.sex.ratio,0.537,squamatara,S,67,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Emydocephalus_annulatus,220,snakes,mod5,adult.sex.ratio,0.669,squamatara,S,163,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Emydocephalus_annulatus,219,snakes,218,adult.sex.ratio,0.61,squamatara,S,313,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Emydocephalus_ijimae,221,snakes,na6,adult.sex.ratio,0.692,squamatara,S,91,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Emydoidea_blandingii,226,turtles,615,adult.sex.ratio,0.55,crocoturtle,CTT,100,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydoidea_blandingii,228,turtles,616,adult.sex.ratio,0.611,crocoturtle,CTT,36,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydoidea_blandingii,227,turtles,556,adult.sex.ratio,0.5,crocoturtle,CTT,10,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydoidea_blandingii,229,turtles,613,adult.sex.ratio,0.329,crocoturtle,CTT,82,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydoidea_blandingii,225,turtles,213,adult.sex.ratio,0.532,crocoturtle,CTT,77,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydoidea_blandingii,223,turtles,164,adult.sex.ratio,0.422,crocoturtle,CTT,187,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydoidea_blandingii,224,turtles,608,adult.sex.ratio,0.263,crocoturtle,CTT,513,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emydura_macquarii,231,turtles,v24,birth.sex.ratio,0.58,crocoturtle,CTT,100,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Emydura_macquarii,232,turtles,g55,adult.sex.ratio,0.641,crocoturtle,CTT,1815,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Emys_orbicularis,240,turtles,64,adult.sex.ratio,0.609,crocoturtle,CTT,87,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,248,turtles,641,adult.sex.ratio,0.53,crocoturtle,CTT,1412,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,243,turtles,641,adult.sex.ratio,0.546,crocoturtle,CTT,282,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,249,turtles,650,adult.sex.ratio,0.675,crocoturtle,CTT,126,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,235,turtles,196,adult.sex.ratio,0.669,crocoturtle,CTT,251,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,237,turtles,637,adult.sex.ratio,0.356,crocoturtle,CTT,163,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,239,turtles,632,adult.sex.ratio,0.309,crocoturtle,CTT,81,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,233,turtles,197,adult.sex.ratio,0.278,crocoturtle,CTT,97,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,241,turtles,625,adult.sex.ratio,0.459,crocoturtle,CTT,96,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,244,turtles,63,adult.sex.ratio,0.405,crocoturtle,CTT,195,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,236,turtles,62,adult.sex.ratio,0.419,crocoturtle,CTT,124,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,246,turtles,626,adult.sex.ratio,0.484,crocoturtle,CTT,901,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,242,turtles,623,adult.sex.ratio,0.319,crocoturtle,CTT,160,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,245,turtles,633,adult.sex.ratio,0.505,crocoturtle,CTT,370,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,234,turtles,628,adult.sex.ratio,0.382,crocoturtle,CTT,110,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,238,turtles,631,adult.sex.ratio,0.574,crocoturtle,CTT,68,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Emys_orbicularis,247,turtles,622,adult.sex.ratio,0.321,crocoturtle,CTT,290,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Eretmochelys_imbricata,253,turtles,429,juvenile.sex.ratio,0.79,crocoturtle,CTT,31,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Eretmochelys_imbricata,ROSIE33,turtles,"Simões, T. N., da Silva, A. C., dos Santos, E. M., & Chagas, C. A. (2014). Temperatura de incubação e razão sexual em filhotes recém-eclodidos da tartaruga marinha Eretmochelys imbricata (Linnaeus, 1766) no município do Ipojuca, Pernambuco, Brasil. Papéis Avulsos de Zoologia, 54(25), 363-374.",birth.sex.ratio,0.134615385,crocoturtle,CTT,52,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Eretmochelys_imbricata,252,turtles,447,juvenile.sex.ratio,0.571,crocoturtle,CTT,14,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Erymnochelys_madagascariensis,ROSIE34,turtles,"Kuchling, G. (2006). Endoscopic sex determination in juvenile freshwater turtles, Erymnochelys madagascariensis: Morphology of gonads and accessory ducts. Chelonian Conservation and Biology, 5(1), 67-73.",juvenile.sex.ratio,0.25,crocoturtle,CTT,140,TSD,TSD Ia,NA,"Thépot (2021) Genes; mentions this species has TSD, but not type; given this is Podocnemis species, assumming also TSD Ia in non-conservative SDM.type classification",NA
+Eulamprus_heatwolei,255,lizards,1022,adult.sex.ratio,0.485,squamatara,S,66,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Eulamprus_tympanum,256,lizards,"1023, 1024",adult.sex.ratio,0.471,squamatara,S,187,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Eulamprus_tympanum,256,lizards,"1023, 1024",birth.sex.ratio,0.87,squamatara,S,23,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Gambelia_wislizenii,257,lizards,v20,adult.sex.ratio,0.575,squamatara,S,186,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Gambelia_wislizenii,257,lizards,v20,juvenile.sex.ratio,0.514,squamatara,S,105,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Gehyra_variegata,260,lizards,v21,adult.sex.ratio,0.479,squamatara,S,165,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Gehyra_variegata,259,lizards,na2,adult.sex.ratio,0.497,squamatara,S,328,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Geochelone_elephantopus,2039d,turtles,2039,adult.sex.ratio,0.475,crocoturtle,CTT,162,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Geochelone_elephantopus,2039a,turtles,2039,adult.sex.ratio,0.357,crocoturtle,CTT,98,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Geochelone_elephantopus,2039g,turtles,2039,adult.sex.ratio,0.534,crocoturtle,CTT,564,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Geochelone_elephantopus,2039b,turtles,2039,adult.sex.ratio,0.599,crocoturtle,CTT,157,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Geochelone_elephantopus,2039e,turtles,2039,adult.sex.ratio,0.35,crocoturtle,CTT,60,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Geochelone_elephantopus,2039c,turtles,2039,adult.sex.ratio,0.698,crocoturtle,CTT,321,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Geochelone_elephantopus,2039f,turtles,2039,adult.sex.ratio,0.536,crocoturtle,CTT,252,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Glyptemys_insculpta,266,turtles,1012,adult.sex.ratio,0.5,crocoturtle,CTT,32,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,268,turtles,"1000, 1007",adult.sex.ratio,0.5,crocoturtle,CTT,98,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,271,turtles,1002,adult.sex.ratio,0.505,crocoturtle,CTT,109,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,269,turtles,1001,adult.sex.ratio,0.5,crocoturtle,CTT,20,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,263,turtles,1006,birth.sex.ratio,0.361,crocoturtle,CTT,36,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,270,turtles,1010,adult.sex.ratio,0.417,crocoturtle,CTT,36,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,264,turtles,1008,adult.sex.ratio,0.571,crocoturtle,CTT,21,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,267,turtles,1012,adult.sex.ratio,0.4,crocoturtle,CTT,60,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_insculpta,265,turtles,1011,adult.sex.ratio,0.5,crocoturtle,CTT,32,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Glyptemys_muhlenbergii,new2018_3,turtles,new2018_3,adult.sex.ratio,0.417,crocoturtle,CTT,48,GSD,GSD,GSD,Literman et al (2017) Conservation genetics resources,NA
+Gopherus_agassizii,2108a,turtles,2108,adult.sex.ratio,0.597,crocoturtle,CTT,67,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2118b,turtles,2118,adult.sex.ratio,0.4,crocoturtle,CTT,75,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2131n,turtles,2131,adult.sex.ratio,0.343,crocoturtle,CTT,35,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2116a,turtles,2116,adult.sex.ratio,0.65,crocoturtle,CTT,20,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2106b,turtles,2106,adult.sex.ratio,0.596,crocoturtle,CTT,161,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2121b,turtles,2121,adult.sex.ratio,0.806,crocoturtle,CTT,252,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2133a,turtles,2133,adult.sex.ratio,0.549,crocoturtle,CTT,122,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2104,turtles,2104,adult.sex.ratio,0.593,crocoturtle,CTT,54,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2116g,turtles,2116,adult.sex.ratio,0.559,crocoturtle,CTT,46,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2125c,turtles,2125,adult.sex.ratio,0.414,crocoturtle,CTT,350,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2121a,turtles,2121,adult.sex.ratio,0.479,crocoturtle,CTT,71,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2131d,turtles,2131,adult.sex.ratio,0.402,crocoturtle,CTT,92,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2116c,turtles,2116,adult.sex.ratio,0.485,crocoturtle,CTT,62,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2116e,turtles,2116,adult.sex.ratio,0.5,crocoturtle,CTT,65,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2123a,turtles,2123,adult.sex.ratio,0.5,crocoturtle,CTT,32,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2114i,turtles,2114,adult.sex.ratio,0.49,crocoturtle,CTT,53,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2107d,turtles,2107,adult.sex.ratio,0.321,crocoturtle,CTT,28,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2129b,turtles,2129,adult.sex.ratio,0.455,crocoturtle,CTT,22,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2114g,turtles,2114,adult.sex.ratio,0.561,crocoturtle,CTT,80,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2111a,turtles,2111,adult.sex.ratio,0.565,crocoturtle,CTT,30,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2105,turtles,2105,adult.sex.ratio,0.366,crocoturtle,CTT,70,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2131i,turtles,2131,adult.sex.ratio,0.404,crocoturtle,CTT,52,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2130b,turtles,2130,adult.sex.ratio,0.585,crocoturtle,CTT,53,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2127a1,turtles,2127,adult.sex.ratio,0.594,crocoturtle,CTT,32,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2122a,turtles,2122,adult.sex.ratio,0.595,crocoturtle,CTT,168,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2114k,turtles,2114,adult.sex.ratio,0.524,crocoturtle,CTT,132,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2115,turtles,2115,adult.sex.ratio,0.68,crocoturtle,CTT,50,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2125d,turtles,2125,adult.sex.ratio,0.468,crocoturtle,CTT,156,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2114a,turtles,2114,adult.sex.ratio,0.412,crocoturtle,CTT,93,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2101,turtles,2101,adult.sex.ratio,0.639,crocoturtle,CTT,36,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2130a,turtles,2130,adult.sex.ratio,0.609,crocoturtle,CTT,69,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2114e,turtles,2114,adult.sex.ratio,0.643,crocoturtle,CTT,65,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_agassizii,2098,turtles,2098,adult.sex.ratio,0.231,crocoturtle,CTT,13,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2140,turtles,2140,adult.sex.ratio,0.493,crocoturtle,CTT,201,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2136m,turtles,2136,adult.sex.ratio,0.462,crocoturtle,CTT,13,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,ROSIE35,turtles,"Demuth, J. P. (2001). The effects of constant and fluctuating incubation temperatures on sex determination, growth, and performance in the tortoise Gopherus polyphemus. Canadian Journal of Zoology, 79(9), 1609-1620.",birth.sex.ratio,0.2,crocoturtle,CTT,5,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2146c,turtles,2146,adult.sex.ratio,0.545,crocoturtle,CTT,123,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2147a,turtles,2147,adult.sex.ratio,0.348,crocoturtle,CTT,23,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2152,turtles,2152,adult.sex.ratio,0.608,crocoturtle,CTT,29,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2146b,turtles,2146,adult.sex.ratio,0.605,crocoturtle,CTT,177,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2136l,turtles,2136,adult.sex.ratio,0.606,crocoturtle,CTT,71,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2141b,turtles,2141,adult.sex.ratio,0.441,crocoturtle,CTT,68,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2136k,turtles,2136,adult.sex.ratio,0.667,crocoturtle,CTT,96,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2149a,turtles,2149,adult.sex.ratio,0.467,crocoturtle,CTT,60,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2137,turtles,2137,adult.sex.ratio,0.563,crocoturtle,CTT,158,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2138,turtles,2138,adult.sex.ratio,0.58,crocoturtle,CTT,119,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2146a,turtles,2146,adult.sex.ratio,0.452,crocoturtle,CTT,42,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Gopherus_polyphemus,2141a,turtles,2141,adult.sex.ratio,0.453,crocoturtle,CTT,75,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_barbouri,272,turtles,505,adult.sex.ratio,0.233,crocoturtle,CTT,90,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,275,turtles,214,birth.sex.ratio,0.21,crocoturtle,CTT,61,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,284,turtles,"542, 543",adult.sex.ratio,0.548,crocoturtle,CTT,704,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,283,turtles,542,adult.sex.ratio,0.436,crocoturtle,CTT,321,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,285,turtles,547,adult.sex.ratio,0.462,crocoturtle,CTT,52,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,276,turtles,"550, 551, 552",adult.sex.ratio,0.484,crocoturtle,CTT,363,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,274,turtles,557,adult.sex.ratio,0.494,crocoturtle,CTT,83,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,274,turtles,557,juvenile.sex.ratio,0.241,crocoturtle,CTT,29,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,286,turtles,539,adult.sex.ratio,0.629,crocoturtle,CTT,210,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,282,turtles,556,adult.sex.ratio,0.769,crocoturtle,CTT,26,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,278,turtles,540,adult.sex.ratio,0.521,crocoturtle,CTT,305,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,281,turtles,545,adult.sex.ratio,0.503,crocoturtle,CTT,151,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_geographica,277,turtles,554,adult.sex.ratio,0.531,crocoturtle,CTT,98,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_ouachitensis,289,turtles,"214, 215",adult.sex.ratio,0.204,crocoturtle,CTT,333,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_ouachitensis,289,turtles,"214, 215",birth.sex.ratio,0.28,crocoturtle,CTT,1540,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_ouachitensis,288,turtles,559,adult.sex.ratio,0.57,crocoturtle,CTT,79,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_pseudogeographica,292,turtles,556,adult.sex.ratio,0.507,crocoturtle,CTT,148,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_pseudogeographica,293,turtles,547,adult.sex.ratio,0.811,crocoturtle,CTT,37,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_pseudogeographica,291,turtles,"214, 215",adult.sex.ratio,0.384,crocoturtle,CTT,177,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_pseudogeographica,291,turtles,"214, 215",birth.sex.ratio,0.25,crocoturtle,CTT,489,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Graptemys_versa,295,turtles,564,adult.sex.ratio,0.636,crocoturtle,CTT,55,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Grayia_smythii,296,snakes,68,adult.sex.ratio,0.485,squamatara,S,33,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Hemidactylus_turcicus,299,lizards,1050,adult.sex.ratio,0.51,squamatara,S,384,GSD,GSD,GSD,species.in.TreeOfSex,written in tree of sex as Hemidactylus spp
+Hemidactylus_turcicus,298,lizards,1051,adult.sex.ratio,0.499,squamatara,S,451,GSD,GSD,GSD,species.in.TreeOfSex,written in tree of sex as Hemidactylus spp
+Hemidactylus_turcicus,297,lizards,1048,adult.sex.ratio,0.519,squamatara,S,671,GSD,GSD,GSD,species.in.TreeOfSex,written in tree of sex as Hemidactylus spp
+Heteronotia_binoei,300,lizards,1036,adult.sex.ratio,0.545,squamatara,S,44,GSD,GSD,GSD,species.in.TreeOfSex,written in tree of sex as Hemidactylus spp
+Heteronotia_binoei,301,lizards,1035,adult.sex.ratio,0.473,squamatara,S,237,GSD,GSD,GSD,species.in.TreeOfSex,written in tree of sex as Hemidactylus spp
+Holbrookia_maculata,302,lizards,v30,adult.sex.ratio,0.506,squamatara,S,316,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Iberolacerta_aranica,303,lizards,1045,birth.sex.ratio,0.654,squamatara,S,104,GSD,GSD,GSD,species.in.TreeOfSex,written as Lacerta aranica in tree of sex
+Iberolacerta_aranica,303,lizards,1045,adult.sex.ratio,0.355,squamatara,S,229,GSD,GSD,GSD,species.in.TreeOfSex,written as Lacerta aranica in tree of sex
+Iberolacerta_aurelioi,304,lizards,1044,birth.sex.ratio,0.559,squamatara,S,34,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Iberolacerta_aurelioi,304,lizards,1044,adult.sex.ratio,0.548,squamatara,S,226,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Intellagama_lesueurii,305,lizards,329,birth.sex.ratio,0.351,squamatara,S,222,TSD,TSD II,TSD II,Doody et al (2006) Evolutionary Ecology,NA
+Intellagama_lesueurii,CK11,lizards,"Pezaro, N., Thompson, M. B., & Doody, J. S. (2015). Seasonal sex ratios and the evolution of temperature-dependent sex determination in oviparous lizards. Evolutionary Ecology, 30(3), 551-565.",birth.sex.ratio,0.351351351,squamatara,S,222,TSD,TSD II,TSD II,Doody et al (2006) Evolutionary Ecology,NA
+Kinixys_erosa,306,turtles,7273,adult.sex.ratio,0.563,crocoturtle,CTT,48,TSD,TSD Ia,NA,genus.or.family.in.TreeOfSex,NA
+Kinixys_homeana,307,turtles,7273,adult.sex.ratio,0.515,crocoturtle,CTT,132,TSD,TSD Ia,NA,genus.or.family.in.TreeOfSex,NA
+Kinosternon_baurii,2028,turtles,2028,adult.sex.ratio,0.333,crocoturtle,CTT,66,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Kinosternon_flavescens,2042f,turtles,2042,adult.sex.ratio,0.606,crocoturtle,CTT,33,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_flavescens,2042e,turtles,2042,adult.sex.ratio,0.421,crocoturtle,CTT,152,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_flavescens,2042d,turtles,2042,adult.sex.ratio,0.397,crocoturtle,CTT,58,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_flavescens,"2061d,c",turtles,2061,juvenile.sex.ratio,0.632,crocoturtle,CTT,38,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_flavescens,"2061d,c",turtles,2061,adult.sex.ratio,0.375,crocoturtle,CTT,200,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_leucostomum,308,turtles,503,adult.sex.ratio,0.601,crocoturtle,CTT,1425,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Kinosternon_leucostomum,308,turtles,503,birth.sex.ratio,0.59,crocoturtle,CTT,34,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Kinosternon_scorpioides,2071a,turtles,2071,adult.sex.ratio,0.667,crocoturtle,CTT,9,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Kinosternon_scorpioides,2068a,turtles,2068,adult.sex.ratio,0.438,crocoturtle,CTT,80,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2077b,turtles,2077,adult.sex.ratio,0.581,crocoturtle,CTT,62,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2076,turtles,2076,adult.sex.ratio,0.439,crocoturtle,CTT,467,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2074a,turtles,2074,adult.sex.ratio,0.664,crocoturtle,CTT,119,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2078b,turtles,2078,adult.sex.ratio,0.705,crocoturtle,CTT,105,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2077a,turtles,2077,adult.sex.ratio,0.585,crocoturtle,CTT,82,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2078a,turtles,2078,adult.sex.ratio,0.385,crocoturtle,CTT,480,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_sonoriense,2079,turtles,2079,adult.sex.ratio,0.584,crocoturtle,CTT,291,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Kinosternon_subrubrum,309,turtles,682,adult.sex.ratio,0.467,crocoturtle,CTT,30,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Kinosternon_subrubrum,310,turtles,"734, 603",adult.sex.ratio,0.568,crocoturtle,CTT,713,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Lacerta_agilis,311,lizards,76,adult.sex.ratio,0.538,squamatara,S,156,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_agilis,312,lizards,mod78,adult.sex.ratio,0.427,squamatara,S,307,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_monticola,315,lizards,1042,birth.sex.ratio,0.54,squamatara,S,248,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_viridis,316,lizards,1041,adult.sex.ratio,0.545,squamatara,S,99,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_vivipara,318,lizards,mod78,adult.sex.ratio,0.429,squamatara,S,385,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_vivipara,319,lizards,v23,adult.sex.ratio,0.231,squamatara,S,373,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_vivipara,317,lizards,"81, 223",adult.sex.ratio,0.418,squamatara,S,2302,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_vivipara,326,lizards,v23,adult.sex.ratio,0.518,squamatara,S,2074,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_vivipara,326,lizards,v23,juvenile.sex.ratio,0.456,squamatara,S,1767,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lacerta_vivipara,319,lizards,v23,juvenile.sex.ratio,0.39,squamatara,S,656,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Lapemis_hardwickii,328,snakes,82,adult.sex.ratio,0.481,squamatara,S,754,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Lepidochelys_kempii,329,turtles,454,juvenile.sex.ratio,0.413,crocoturtle,CTT,75,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Lepidochelys_olivacea,331,turtles,513,birth.sex.ratio,0.419,crocoturtle,CTT,530,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Lepidochelys_olivacea,330,turtles,469,adult.sex.ratio,0.49,crocoturtle,CTT,739,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Liasis_fuscus,332,snakes,134,adult.sex.ratio,0.614,squamatara,S,1618,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Lygosoma_laterale,333,lizards,mod9,adult.sex.ratio,0.502,squamatara,S,303,GSD,GSD,GSD,species.in.TreeOfSex,written as Lacerta aranica in tree of sex
+Lygosoma_laterale,333,lizards,mod9,juvenile.sex.ratio,0.513,squamatara,S,80,GSD,GSD,GSD,species.in.TreeOfSex,written as Lacerta aranica in tree of sex
+Macrochelys_temminckii,334,turtles,496,adult.sex.ratio,0.779,crocoturtle,CTT,104,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,342,turtles,498,adult.sex.ratio,0.397,crocoturtle,CTT,73,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,337,turtles,492,adult.sex.ratio,0.356,crocoturtle,CTT,59,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,339,turtles,491,adult.sex.ratio,0.143,crocoturtle,CTT,56,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,338,turtles,499,birth.sex.ratio,0.082,crocoturtle,CTT,49,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,335,turtles,487,adult.sex.ratio,0.462,crocoturtle,CTT,104,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,336,turtles,497,adult.sex.ratio,0.556,crocoturtle,CTT,45,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,340,turtles,495,adult.sex.ratio,0.417,crocoturtle,CTT,12,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Macrochelys_temminckii,341,turtles,488,adult.sex.ratio,0.528,crocoturtle,CTT,36,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Malaclemys_terrapin,344,turtles,665,adult.sex.ratio,0.576,crocoturtle,CTT,262,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Malaclemys_terrapin,346,turtles,658,adult.sex.ratio,0.19,crocoturtle,CTT,715,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Malaclemys_terrapin,346,turtles,658,juvenile.sex.ratio,0.575,crocoturtle,CTT,544,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Malaclemys_terrapin,345,turtles,"659, 89, 90",adult.sex.ratio,0.601,crocoturtle,CTT,1189,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Mauremys_japonica,351,turtles,365,adult.sex.ratio,0.428,crocoturtle,CTT,257,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Mauremys_japonica,350,turtles,366,adult.sex.ratio,0.474,crocoturtle,CTT,350,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Mauremys_reevesii,352,turtles,"373, m53",adult.sex.ratio,0.588,crocoturtle,CTT,56,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Mauremys_reevesii,352,turtles,"373, m53",juvenile.sex.ratio,0.32,crocoturtle,CTT,96,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Mauremys_reevesii,ROSIE36,turtles,"Ishihara, S. (1985). Temperature dependent sex determination of the freshwater turtle, Chinemys reevesii, in the terrarium. Japanese Journal of Herpetology, 11(2), 62.",birth.sex.ratio,0.54368932,crocoturtle,CTT,102,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Meroles_anchietae,353,lizards,183184,adult.sex.ratio,0.553,squamatara,S,559,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Meroles_cuneirostris,354,lizards,183184,adult.sex.ratio,0.554,squamatara,S,204,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Morelia_viridis,355,snakes,g32,adult.sex.ratio,0.577,squamatara,S,97,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Natator_depressus,ROSIE37,turtles,"Stubbs, J. L., Kearney, M. R., Whiting, S. D., & Mitchell, N. J. (2014). Models of primary sex ratios at a major flatback turtle rookery show an anomalous masculinising trend. Climate Change Responses, 1(1), 3.",birth.sex.ratio,0.166666667,crocoturtle,CTT,138,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Natrix_natrix,358,snakes,v26,adult.sex.ratio,0.539,squamatara,S,334,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Natrix_natrix,358,snakes,v26,juvenile.sex.ratio,0.316,squamatara,S,76,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Natrix_natrix,358,snakes,v26,birth.sex.ratio,0.48,squamatara,S,294,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Natrix_natrix,356,snakes,g35,birth.sex.ratio,0.503,squamatara,S,124,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Natrix_natrix,357,snakes,v25,adult.sex.ratio,0.676,squamatara,S,58,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Nerodia_rhombifer,360,snakes,v27,birth.sex.ratio,0.524,squamatara,S,42,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_rhombifer,359,snakes,g1217,birth.sex.ratio,0.53,squamatara,S,357,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_rhombifer,360,snakes,v27,adult.sex.ratio,0.457,squamatara,S,127,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_rhombifer,360,snakes,v27,juvenile.sex.ratio,0.28,squamatara,S,25,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_sipedon,362,snakes,"95, new61, new62",birth.sex.ratio,0.482,squamatara,S,1704,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_sipedon,362,snakes,"95, new61, new62",adult.sex.ratio,0.655,squamatara,S,807,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_sipedon,361,snakes,g39,juvenile.sex.ratio,0.522,squamatara,S,23,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Nerodia_taxispilota,364,snakes,na7,adult.sex.ratio,0.608,squamatara,S,744,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Niveoscincus_ocellatus,MT2,lizards,"Cunningham, G. D., While, G. M. & Wapstra, E. Climate and sex ratio variation in a viviparous lizard. Biol. Lett. 13, 2015â€“2018 (2017).",birth.sex.ratio,0.53,squamatara,S,3379,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Notechis_scutatus,365,snakes,97,adult.sex.ratio,0.733,squamatara,S,292,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Opheodrys_aestivus,367,snakes,"new87, new88",adult.sex.ratio,0.51,squamatara,S,323,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Opheodrys_aestivus,367,snakes,"new87, new88",juvenile.sex.ratio,0.5,squamatara,S,78,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Opheodrys_aestivus,367,snakes,"new87, new88",birth.sex.ratio,0.475,squamatara,S,141,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Pelodiscus_sinensis,374,turtles,1016,birth.sex.ratio,0.514,crocoturtle,CTT,296,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pelodiscus_sinensis,371,turtles,1016,birth.sex.ratio,0.514,crocoturtle,CTT,220,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pelodiscus_sinensis,372,turtles,1016,birth.sex.ratio,0.406,crocoturtle,CTT,143,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pelodiscus_sinensis,370,turtles,1016,birth.sex.ratio,0.526,crocoturtle,CTT,234,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pelodiscus_sinensis,373,turtles,1016,birth.sex.ratio,0.456,crocoturtle,CTT,114,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pelodiscus_sinensis,375,turtles,1016,birth.sex.ratio,0.516,crocoturtle,CTT,364,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pelodiscus_sinensis,369,turtles,1015,birth.sex.ratio,0.509,crocoturtle,CTT,116,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Phelsuma_madagascariensis,376,lizards,1025,adult.sex.ratio,0.457,squamatara,S,46,TSD,TSD II,TSD II,species.in.TreeOfSex,written as Phelsuma madagascariensis grandis in tree of sex
+Phrynosoma_cornutum,377,lizards,1053ab,juvenile.sex.ratio,0.469,squamatara,S,32,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Phrynosoma_cornutum,377,lizards,1053ab,adult.sex.ratio,0.474,squamatara,S,97,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Pituophis_melanoleucus,378,snakes,g72,birth.sex.ratio,0.567,squamatara,S,97,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_bocagei,380,lizards,"277, m54",juvenile.sex.ratio,0.387,squamatara,S,117,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_bocagei,380,lizards,"277, m54",adult.sex.ratio,0.363,squamatara,S,48,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_bocagei,380,lizards,"277, m54",birth.sex.ratio,0.511,squamatara,S,174,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_hispanica,381,lizards,238,birth.sex.ratio,0.57,squamatara,S,86,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Podarcis_muralis,384,lizards,g48,adult.sex.ratio,0.437,squamatara,S,135,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_muralis,386,lizards,117,adult.sex.ratio,0.578,squamatara,S,97,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_muralis,382,lizards,"116, 280",adult.sex.ratio,0.604,squamatara,S,106,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_muralis,383,lizards,g41,birth.sex.ratio,0.517,squamatara,S,29,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_muralis,385,lizards,118,adult.sex.ratio,0.556,squamatara,S,54,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_muralis,384,lizards,g48,juvenile.sex.ratio,0.498,squamatara,S,267,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podarcis_sicula,388,lizards,119,adult.sex.ratio,0.569,squamatara,S,102,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Podocnemis_erythrocephala,389,turtles,"120, m56",adult.sex.ratio,0.329,crocoturtle,CTT,3669,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,2098,turtles,2098new,birth.sex.ratio,0.347,crocoturtle,CTT,386,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,390,turtles,g66,adult.sex.ratio,0.589,crocoturtle,CTT,265,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,2094,turtles,2094,birth.sex.ratio,0.069,crocoturtle,CTT,173,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,ROSIE39,turtles,"Malvasio, A., do Nascimento-Rocha, J. M., Santos, H. D., de Ataídes, A. G., Portelinha, T. C. G. (2012). Morphometry and histology of the gonads of males and females hatchlings of Podocnemis expansa and Podocnemis. unifilis (Testudines, Podocnemididae). Acta Scientiarum, 34(1), 105-112.",birth.sex.ratio,0.187165775,crocoturtle,CTT,187,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,390,turtles,g66,juvenile.sex.ratio,0.289,crocoturtle,CTT,380,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,2093,turtles,2093,birth.sex.ratio,0.622,crocoturtle,CTT,90,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,ROSIE41,turtles,"Raeder, F. L., & Bisaggio, E. L. (2011). Projeto Quelônios da Amazônia em Costa Marques/RO - Base Praia Alta, Rio Guaporé. 1° WORKSHOP: ESTRATÉGIAS PARA CONSERVAÇÃO DE QUELÔNIOS DA AMAZÔNIA: PROTEÇÃO DE PRAIAS",birth.sex.ratio,0.056179775,crocoturtle,CTT,200,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,ROSIE38,turtles,"Carneiro, C. C. (2012). Influência do ambiente de nidificação sobre a taxa de eclosão, a duração da incubação e a determinação sexual em Podocnemis (Reptilia, Podocnemididae) no Tabuleiro do Embaubal Rio Xingu, Pará (Master's thesis, Universidade Federal do Pará, Belém, Brasil). Retrieved from http://ppgeap.propesp.ufpa.br/ARQUIVOS/dissertacoes/2012/PPGEAP_Dissertacao_Cristiane_Costa_Carneriro_2010_a_2012%2014.05.2012.pdf",birth.sex.ratio,0.026666667,crocoturtle,CTT,300,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,ROSIE40,turtles,"Malvasio, A., Souza, A. M., Ferreira Junior, P. D., Reis, E. S., Sampaio, F. A. A. (2002). Temperatura de incubação dos ovos e granulometria dos sedimentos das covas relacionadas a determinação sexual em Podocnemis expansa (Schweigger, 1812) e P. unifilis (Troschel, 1848) (Testudines, Pelomedusidae). Publicações Avulsas do Instituto Pau Brasil de Historia Natural, 5, 11-25.",birth.sex.ratio,0.412987013,crocoturtle,CTT,385,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_expansa,2089def,turtles,2089,birth.sex.ratio,0.027,crocoturtle,CTT,300,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_lewyana,ROSIE42,turtles,"Páez, V. P., Correa, J. C., Cano, A. M., & Bock, B. C. (2009). A comparison of maternal and temperature effects on sex, size, and growth of hatchlings of the Magdalena River turtle (Podocnemis lewyana) incubated under field and controlled laboratory conditions. Copeia, 2009(4), 698-704.",birth.sex.ratio,0.245210728,crocoturtle,CTT,261,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_lewyana,2085b,turtles,2085,adult.sex.ratio,0.557,crocoturtle,CTT,201,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,2089abc,turtles,2089,birth.sex.ratio,0.163,crocoturtle,CTT,135,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,"2087a,c",turtles,2087,juvenile.sex.ratio,0.141,crocoturtle,CTT,320,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,ROSIE44,turtles,"Eisemberg, C. C., Drummond, G. M., & Vogt, R. C. (2017). Boosting female hatchling production in endangered, male‐biased turtle populations. Wildlife Society Bulletin, 41(4), 810-815.",birth.sex.ratio,0.48,crocoturtle,CTT,150,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,ROSIE43,turtles,"Andrade, P. C. M. (2017). Efeitos da transferência de ninhos de Podocnemis unifilis, P. sextuberculata e P. expansa no lago do Piraruacá, Terra Santa, Brasil. In P. C. M. Andrade (Ed.), Manejo comunitário de quelônios no Médio Amazonas: Projeto Pé-de-pincha (pp. 208-260). Manaus/AM.",birth.sex.ratio,0.8,crocoturtle,CTT,65,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,"2087a,c",turtles,2087,adult.sex.ratio,0.816,crocoturtle,CTT,1778,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,"2087d,f",turtles,2087,adult.sex.ratio,0.827,crocoturtle,CTT,1112,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_sextuberculata,"2087d,f",turtles,2087,juvenile.sex.ratio,0.092,crocoturtle,CTT,174,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,ROSIE46,turtles,"de Souza, R. R., & Vogt, R. C. (1994). Incubation temperature influences sex and hatchling size in the neotropical turtle Podocnemis unifilis. Journal of Herpetology, 28(4), 453-464.",birth.sex.ratio,0.585714286,crocoturtle,CTT,210,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,2090,turtles,2090,adult.sex.ratio,0.655,crocoturtle,CTT,562,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,ROSIE45,turtles,"Andrade, P. C. M. (2017). Efeitos da transferência de ninhos de Podocnemis unifilis, P. sextuberculata e P. expansa no lago do Piraruacá, Terra Santa, Brasil. In P. C. M. Andrade (Ed.), Manejo comunitário de quelônios no Médio Amazonas: Projeto Pé-de-pincha (pp. 208-260). Manaus/AM.",birth.sex.ratio,0.69122807,crocoturtle,CTT,285,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,ROSIE50,turtles,"Páez, V. P., & Bock, B. C. (2004). Pre- and post-hatching factors affecting juvenile growth rates in the yellow-spotted river turtle (Podocnemis unifilis). Actualidades Biológicas, 26(81), 137-151.",birth.sex.ratio,0.538461539,crocoturtle,CTT,13,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,2096b,turtles,2096,adult.sex.ratio,0.765,crocoturtle,CTT,51,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,391,turtles,g68,adult.sex.ratio,0.711,crocoturtle,CTT,1024,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,ROSIE47,turtles,"Erickson, J., Fagundes, C. K., Magalhães, M. S., Dias, L. C., Vogt, R. C., Farias, I. P., & Zuanon, J. (2020). Natural nests incubated in two different soil types lead to an overall balanced sex ratio in Podocnemis unifilis hatchlings on the lower Purus River, Brazil. Salamandra, 56(4), 309-316.",birth.sex.ratio,0.486803519,crocoturtle,CTT,341,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,ROSIE49,turtles,"Malvasio, A., Souza, A. M., Ferreira Junior, P. D., Reis, E. S., Sampaio, F. A. A. (2002). Temperatura de incubação dos ovos e granulometria dos sedimentos das covas relacionadas a determinação sexual em Podocnemis expansa (Schweigger, 1812) e P. unifilis (Troschel, 1848) (Testudines, Pelomedusidae). Publicações Avulsas do Instituto Pau Brasil de Historia Natural, 5, 11-25.",birth.sex.ratio,0.631578947,crocoturtle,CTT,57,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,ROSIE48,turtles,"Malvasio, A., do Nascimento-Rocha, J. M., Santos, H. D., de Ataídes, A. G., Portelinha, T. C. G. (2012). Morphometry and histology of the gonads of males and females hatchlings of Podocnemis expansa and Podocnemis. unifilis (Testudines, Podocnemididae). Acta Scientiarum, 34(1), 105-112.",birth.sex.ratio,0.683673469,crocoturtle,CTT,98,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,2089ghi,turtles,2089,birth.sex.ratio,0.381,crocoturtle,CTT,155,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Podocnemis_unifilis,392,turtles,g67,birth.sex.ratio,0.724,crocoturtle,CTT,380,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Psammodromus_algirus,393,lizards,v28,adult.sex.ratio,0.618,squamatara,S,57,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Psammodromus_algirus,394,lizards,122,adult.sex.ratio,0.589,squamatara,S,90,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Pseudemys_concinna,396,turtles,505,adult.sex.ratio,0.487,crocoturtle,CTT,115,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_concinna,398,turtles,672,adult.sex.ratio,0.655,crocoturtle,CTT,45,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_concinna,397,turtles,559,adult.sex.ratio,0.546,crocoturtle,CTT,291,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_concinna,399,turtles,"674, m52",juvenile.sex.ratio,0.152,crocoturtle,CTT,105,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_concinna,395,turtles,673,adult.sex.ratio,0.438,crocoturtle,CTT,80,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_concinna,399,turtles,"674, m52",adult.sex.ratio,0.632,crocoturtle,CTT,68,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_floridana,401,turtles,682,adult.sex.ratio,0.798,crocoturtle,CTT,1736,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_floridana,400,turtles,682,adult.sex.ratio,0.6,crocoturtle,CTT,30,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_nelsoni,403,turtles,728,adult.sex.ratio,0.552,crocoturtle,CTT,57,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Pseudemys_peninsularis,405,turtles,728,adult.sex.ratio,0.666,crocoturtle,CTT,209,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Rhabdophis_tigrinus,407,snakes,2634,adult.sex.ratio,0.667,squamatara,S,48,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_graciosus,408,lizards,"g5, g6",birth.sex.ratio,0.49,squamatara,S,150,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_graciosus,408,lizards,"g5, g6",adult.sex.ratio,0.482,squamatara,S,454,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_graciosus,408,lizards,"g5, g6",juvenile.sex.ratio,0.471,squamatara,S,937,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_jarrovi,413,lizards,g1,adult.sex.ratio,0.4,squamatara,S,70,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_jarrovi,412,lizards,"g2, m50",adult.sex.ratio,0.488,squamatara,S,93,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_jarrovi,413,lizards,g1,birth.sex.ratio,0.485,squamatara,S,171,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_jarrovi,412,lizards,"g2, m50",juvenile.sex.ratio,0.4,squamatara,S,140,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_jarrovi,411,lizards,126,adult.sex.ratio,0.435,squamatara,S,214,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_poinsetti,414,lizards,g2,juvenile.sex.ratio,0.4,squamatara,S,33,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_poinsetti,414,lizards,g2,adult.sex.ratio,0.488,squamatara,S,38,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_scalaris,416,lizards,na4,juvenile.sex.ratio,0.464,squamatara,S,168,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_scalaris,416,lizards,na4,adult.sex.ratio,0.298,squamatara,S,104,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,421,lizards,v29,adult.sex.ratio,0.4,squamatara,S,30,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,420,lizards,v29,juvenile.sex.ratio,0.434,squamatara,S,113,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,417,lizards,v29,juvenile.sex.ratio,0.493,squamatara,S,136,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,418,lizards,g7,adult.sex.ratio,0.388,squamatara,S,317,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,421,lizards,v29,juvenile.sex.ratio,0.434,squamatara,S,143,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,420,lizards,v29,adult.sex.ratio,0.563,squamatara,S,80,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,422,lizards,129,adult.sex.ratio,0.438,squamatara,S,96,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,418,lizards,g7,juvenile.sex.ratio,0.448,squamatara,S,183,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,423,lizards,v30,adult.sex.ratio,0.472,squamatara,S,305,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,419,lizards,v29,juvenile.sex.ratio,0.42,squamatara,S,138,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_undulatus,419,lizards,v29,adult.sex.ratio,0.389,squamatara,S,90,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Sceloporus_virgatus,424,lizards,130,juvenile.sex.ratio,0.539,squamatara,S,115,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sceloporus_virgatus,425,lizards,g77,birth.sex.ratio,0.483,squamatara,S,176,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sceloporus_virgatus,424,lizards,130,adult.sex.ratio,0.455,squamatara,S,235,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sceloporus_virgatus,425,lizards,g77,adult.sex.ratio,0.62,squamatara,S,279,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sistrurus_catenatus,426,snakes,g1217,birth.sex.ratio,0.56,squamatara,S,207,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sistrurus_miliarius,427,snakes,g1217,birth.sex.ratio,0.5,squamatara,S,1024,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sphenodon_punctatus,429,tuatara,"222, 226",adult.sex.ratio,0.667,squamatara,CTT,81,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,429,tuatara,"222, 226",birth.sex.ratio,0.64,squamatara,CTT,148,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,CK14,tuatara,"Nelson, N. J., Keall, S. N., Refsnider, J. M., & Carter, A. L. (2018). Behavioral variation in nesting phenology may offset sex-ratio bias in tuatara. Journal of Experimental Zoology, 329(6-7), 373-381.",juvenile.sex.ratio,0.671532847,squamatara,CTT,137,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,CK13,tuatara,"Nelson, N. J., Cree, A., Thompson, M. A., Keall, S. N., & Daugherty, C. H. (2004). Temperature-dependent sex determination in tuatara. In N. Valenzuela & V. A. Lance (Eds.), Temperature-dependent sex determination in vertebrates (pp. 53-58). Smithsonian Books, Washington, DC.",juvenile.sex.ratio,0.626865672,squamatara,CTT,134,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,431,tuatara,225,adult.sex.ratio,0.51,squamatara,CTT,147,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,430,tuatara,225,adult.sex.ratio,0.56,squamatara,CTT,84,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,CK12,tuatara,"Nelson, N. J., Cree, A., Thompson, M. A., Keall, S. N., & Daugherty, C. H. (2004). Temperature-dependent sex determination in tuatara. In N. Valenzuela & V. A. Lance (Eds.), Temperature-dependent sex determination in vertebrates (pp. 53-58). Smithsonian Books, Washington, DC.",birth.sex.ratio,1,squamatara,CTT,6,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Sphenodon_punctatus,428,tuatara,"132, 224, 223",adult.sex.ratio,0.644,squamatara,CTT,621,TSD,TSD Ib,TSD Ib,species.in.TreeOfSex,NA
+Staurotypus_triporcatus,432,turtles,503,adult.sex.ratio,0.44,crocoturtle,CTT,386,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Staurotypus_triporcatus,432,turtles,503,birth.sex.ratio,0.4,crocoturtle,CTT,21,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Stegonotus_cucullatus,433,snakes,134,adult.sex.ratio,0.779,squamatara,S,208,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Sternotherus_carinatus,2042h,turtles,2042,adult.sex.ratio,0.379,crocoturtle,CTT,58,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_minor,434,turtles,728,adult.sex.ratio,0.681,crocoturtle,CTT,214,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_minor,2052b,turtles,2052,adult.sex.ratio,0.5,crocoturtle,CTT,149,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_minor,435,turtles,505,adult.sex.ratio,0.6,crocoturtle,CTT,65,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,442,turtles,481,adult.sex.ratio,0.661,crocoturtle,CTT,56,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,443,turtles,481,adult.sex.ratio,0.261,crocoturtle,CTT,92,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,440,turtles,162,adult.sex.ratio,0.613,crocoturtle,CTT,31,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,438,turtles,682,adult.sex.ratio,0.653,crocoturtle,CTT,449,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,445,turtles,548,adult.sex.ratio,0.467,crocoturtle,CTT,15,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,439,turtles,559,adult.sex.ratio,0.629,crocoturtle,CTT,383,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,2050,turtles,2050,adult.sex.ratio,0.575,crocoturtle,CTT,146,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,2047e,turtles,2047,adult.sex.ratio,0.758,crocoturtle,CTT,178,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,444,turtles,540,adult.sex.ratio,0.582,crocoturtle,CTT,292,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,441,turtles,578,adult.sex.ratio,0.478,crocoturtle,CTT,556,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,2042g,turtles,2042,adult.sex.ratio,0.506,crocoturtle,CTT,233,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Sternotherus_odoratus,437,turtles,682,adult.sex.ratio,0.385,crocoturtle,CTT,39,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Storeria_dekayi,446,snakes,g61,adult.sex.ratio,0.451,squamatara,S,512,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Tarentola_annularis,448,lizards,1026,adult.sex.ratio,0.63,squamatara,S,46,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Tarentola_boettgeri,449,lizards,1027,adult.sex.ratio,0.472,squamatara,S,536,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Tarentola_mauritanica,451,lizards,1028,adult.sex.ratio,0.685,squamatara,S,111,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Tarentola_mauritanica,450,lizards,1029,adult.sex.ratio,0.359,squamatara,S,64,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,457,turtles,599,adult.sex.ratio,0.686,crocoturtle,CTT,35,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,453,turtles,136,adult.sex.ratio,0.693,crocoturtle,CTT,397,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,456,turtles,136,adult.sex.ratio,0.493,crocoturtle,CTT,138,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2005,turtles,2005,adult.sex.ratio,0.365,crocoturtle,CTT,74,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,454,turtles,136,adult.sex.ratio,0.542,crocoturtle,CTT,48,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2014,turtles,2014,adult.sex.ratio,0.459,crocoturtle,CTT,248,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2008,turtles,2008,adult.sex.ratio,0.55,crocoturtle,CTT,111,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2006,turtles,2006,adult.sex.ratio,0.538,crocoturtle,CTT,132,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,455,turtles,136,adult.sex.ratio,0.674,crocoturtle,CTT,86,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2010b,turtles,2010,adult.sex.ratio,0.543,crocoturtle,CTT,35,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2010a,turtles,2010,adult.sex.ratio,0.545,crocoturtle,CTT,90,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2004a,turtles,2004,adult.sex.ratio,0.478,crocoturtle,CTT,245,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_carolina,2001b,turtles,2001,adult.sex.ratio,0.617,crocoturtle,CTT,247,TSD,TSD II,TSD II,species.in.TreeOfSex,NA
+Terrapene_ornata,2020d,turtles,2020,adult.sex.ratio,0.343,crocoturtle,CTT,210,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,458,turtles,g58,adult.sex.ratio,0.459,crocoturtle,CTT,109,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,2018a,turtles,2018,adult.sex.ratio,0.352,crocoturtle,CTT,88,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,2023b,turtles,2023,adult.sex.ratio,0.39,crocoturtle,CTT,154,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,2019,turtles,2019,adult.sex.ratio,0.471,crocoturtle,CTT,348,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,2022,turtles,2022,adult.sex.ratio,0.493,crocoturtle,CTT,136,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,2025,turtles,2025,adult.sex.ratio,0.377,crocoturtle,CTT,414,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,460,turtles,g59,adult.sex.ratio,0.39,crocoturtle,CTT,100,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Terrapene_ornata,459,turtles,737,adult.sex.ratio,0.411,crocoturtle,CTT,73,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_graeca,467,turtles,692,adult.sex.ratio,0.538,crocoturtle,CTT,91,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_graeca,463,turtles,"727, 720",adult.sex.ratio,0.611,crocoturtle,CTT,163,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_graeca,464,turtles,692,adult.sex.ratio,0.577,crocoturtle,CTT,26,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_graeca,466,turtles,692,adult.sex.ratio,0.534,crocoturtle,CTT,73,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_graeca,465,turtles,692,adult.sex.ratio,0.387,crocoturtle,CTT,31,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_graeca,462,turtles,157,adult.sex.ratio,0.515,crocoturtle,CTT,68,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Testudo_hermanni,477,turtles,712,adult.sex.ratio,0.584,crocoturtle,CTT,178,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Eurotestudo hermanni in tree of sex
+Testudo_hermanni,475,turtles,703,adult.sex.ratio,0.375,crocoturtle,CTT,48,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Eurotestudo hermanni in tree of sex
+Testudo_hermanni,478,turtles,158,adult.sex.ratio,0.604,crocoturtle,CTT,53,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Eurotestudo hermanni in tree of sex
+Testudo_hermanni,476,turtles,708,adult.sex.ratio,0.667,crocoturtle,CTT,82,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Eurotestudo hermanni in tree of sex
+Testudo_hermanni,474,turtles,726,adult.sex.ratio,0.47,crocoturtle,CTT,322,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,Written as Eurotestudo hermanni in tree of sex
+Thamnophis_marcianus,479,snakes,283,adult.sex.ratio,0.4,squamatara,S,135,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Thamnophis_marcianus,479,snakes,283,birth.sex.ratio,0.485,squamatara,S,194,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Thamnophis_marcianus,479,snakes,283,juvenile.sex.ratio,0.567,squamatara,S,30,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Thamnophis_proximus,480,snakes,g1217,birth.sex.ratio,0.56,squamatara,S,237,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_radix,482,snakes,g99,juvenile.sex.ratio,0.531,squamatara,S,32,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_radix,482,snakes,g99,birth.sex.ratio,0.419,squamatara,S,43,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_radix,481,snakes,g1217,birth.sex.ratio,0.53,squamatara,S,137,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_radix,482,snakes,g99,adult.sex.ratio,0.486,squamatara,S,140,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_sauritus,483,snakes,g80,adult.sex.ratio,0.532,squamatara,S,109,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_scalaris,485,snakes,g18,birth.sex.ratio,0.321,squamatara,S,28,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_sirtalis,487,snakes,g1217,birth.sex.ratio,0.51,squamatara,S,652,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_sirtalis,489,snakes,new79,birth.sex.ratio,0.553,squamatara,S,197,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Thamnophis_sirtalis,486,snakes,211,adult.sex.ratio,0.595,squamatara,S,74,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Trachemys_adiutrix,2068b,turtles,2068,adult.sex.ratio,0.429,crocoturtle,CTT,35,TSD,TSD Ia,NA,genus.or.family.in.TreeOfSex,NA
+Trachemys_scripta,496,turtles,682,adult.sex.ratio,0.733,crocoturtle,CTT,2017,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,499,turtles,559,adult.sex.ratio,0.728,crocoturtle,CTT,2168,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,505,turtles,518,adult.sex.ratio,0.442,crocoturtle,CTT,77,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,494,turtles,682,adult.sex.ratio,0.578,crocoturtle,CTT,187,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,495,turtles,682,adult.sex.ratio,0.588,crocoturtle,CTT,68,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,507,turtles,540,adult.sex.ratio,0.469,crocoturtle,CTT,179,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,491,turtles,503,birth.sex.ratio,0.78,crocoturtle,CTT,9,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,497,turtles,505,adult.sex.ratio,0.638,crocoturtle,CTT,320,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,498,turtles,g62,juvenile.sex.ratio,0.593,crocoturtle,CTT,91,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,498,turtles,g62,adult.sex.ratio,0.682,crocoturtle,CTT,179,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,493,turtles,682,adult.sex.ratio,0.548,crocoturtle,CTT,93,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,503,turtles,481,adult.sex.ratio,0.424,crocoturtle,CTT,1070,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,508,turtles,g65,birth.sex.ratio,0.63,crocoturtle,CTT,568,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,492,turtles,139,adult.sex.ratio,0.473,crocoturtle,CTT,635,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,500,turtles,g46,adult.sex.ratio,0.463,crocoturtle,CTT,54,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,502,turtles,g46,adult.sex.ratio,0.453,crocoturtle,CTT,117,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,ROSIE52,turtles,"Cadi, A., Delmas, V., Prévot‐Julliard, A.-C., Joly, P., Pieau, C., & Girondot, M. (2004). Successful reproduction of the introduced slider turtle (Trachemys scripta elegans) in the South of France. Aquatic Conservation: Marine and Freshwater Ecosystems, 14(3), 237-246.",birth.sex.ratio,0.244444444,crocoturtle,CTT,45,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,491,turtles,503,adult.sex.ratio,0.686,crocoturtle,CTT,283,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,504,turtles,481,adult.sex.ratio,0.375,crocoturtle,CTT,40,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trachemys_scripta,501,turtles,g46,adult.sex.ratio,0.713,crocoturtle,CTT,122,TSD,TSD Ia,TSD Ia,species.in.TreeOfSex,NA
+Trimeresurus_stejnegeri,509,snakes,g71,birth.sex.ratio,0.556,squamatara,S,90,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Trimeresurus_stejnegeri,509,snakes,g71,adult.sex.ratio,0.736,squamatara,S,178,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Trimeresurus_stejnegeri,509,snakes,g71,juvenile.sex.ratio,0.529,squamatara,S,68,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Tropidurus_albemarlensis,510,lizards,na3,adult.sex.ratio,0.383,squamatara,S,201,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Tropidurus_hispidus,512,lizards,176,juvenile.sex.ratio,0.273,squamatara,S,22,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Tropidurus_hispidus,512,lizards,176,adult.sex.ratio,0.421,squamatara,S,235,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Tropidurus_itambere,513,lizards,144,adult.sex.ratio,0.46,squamatara,S,255,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Tropidurus_itambere,513,lizards,144,juvenile.sex.ratio,0.49,squamatara,S,290,GSD,GSD,GSD,genus.or.family.in.TreeOfSex,NA
+Tropidurus_torquatus,514,lizards,"new81, m55",adult.sex.ratio,0.389,squamatara,S,190,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Tropidurus_torquatus,514,lizards,"new81, m55",juvenile.sex.ratio,0.42,squamatara,S,50,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Underwoodisaurus_milii,515,lizards,1037,adult.sex.ratio,0.519,squamatara,S,79,GSD,GSD,GSD,Pokorn‡ et al (2014) Cyogenetic and genome research,NA
+Underwoodisaurus_milii,516,lizards,1037,adult.sex.ratio,0.5,squamatara,S,30,GSD,GSD,GSD,Pokorn‡ et al (2014) Cyogenetic and genome research,NA
+Uta_stansburiana,517,lizards,"g10, m51",birth.sex.ratio,0.52,squamatara,S,126,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Uta_stansburiana,517,lizards,"g10, m51",adult.sex.ratio,0.501,squamatara,S,1888,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Uta_stansburiana,517,lizards,"g10, m51",juvenile.sex.ratio,0.468,squamatara,S,111,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Uta_stansburiana,518,lizards,g49,birth.sex.ratio,0.494,squamatara,S,87,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Uta_stansburiana,518,lizards,g49,adult.sex.ratio,0.463,squamatara,S,326,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Uta_stansburiana,520,lizards,v31,adult.sex.ratio,0.442,squamatara,S,1884,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Varanus_albigularis,521,lizards,na5,adult.sex.ratio,0.561,squamatara,S,205,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Varanus_salvator,522,lizards,1030,adult.sex.ratio,0.485,squamatara,S,33,GSD,GSD,GSD,species.in.TreeOfSex,"In tree of sex, the reference cited actually says that the evidence is not convincing that Varanidae have TSD due to misID sex and no histological confirmation; keeping this as GSD due to this and GSD being in the rest of the genus"
+Vipera_aspis,523,snakes,220,adult.sex.ratio,0.531,squamatara,S,988,GSD,GSD,GSD,species.in.TreeOfSex,written as Vipera aspis aspis in tree of sex
+Vipera_berus,525,snakes,v33,adult.sex.ratio,0.51,squamatara,S,155,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Vipera_berus,526,snakes,"new83, new84",birth.sex.ratio,0.434,squamatara,S,401,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Vipera_berus,526,snakes,"new83, new84",adult.sex.ratio,0.558,squamatara,S,86,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Vipera_berus,525,snakes,v33,birth.sex.ratio,0.506,squamatara,S,79,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Vipera_berus,527,snakes,202,adult.sex.ratio,0.58,squamatara,S,352,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Vipera_ursinii,528,snakes,g11,birth.sex.ratio,0.49,squamatara,S,360,GSD,GSD,GSD,species.in.TreeOfSex,NA
+Xenochrophis_piscator,529,snakes,g81,birth.sex.ratio,0.55,squamatara,S,249,GSD,GSD,GSD,species.in.TreeOfSex,NA
