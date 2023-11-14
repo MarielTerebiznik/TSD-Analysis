@@ -2,10 +2,12 @@
 Data and analysis of wild, natural sex ratio records of reptiles to investigate the origins of temperature-dependent sex determination. This analysis was conducted in RStudio (version 2022.02.3) using the MCMCglmm package. 
 
 
-**System Requirements** /n
+**System Requirements** 
+
 The only system requirements is the program R
 
-**Installation** /n
+**Installation**
+
 To install the MCMCglmm package, run the following code in R. 
 ```
 install.packages(MCMCglmm)
@@ -13,7 +15,8 @@ library(MCMCglmm)
 ```
 Instructions on how to use the MCMCglmm package can be found here: https://cran.r-project.org/web/packages/MCMCglmm/MCMCglmm.pdf
 
-**Instructions for Use** /n
+**Instructions for Use** 
+
 Included in this package is 
 1) a unique data set of wild, natural sex ratio records of reptiles
 2) a phylogeny of species included in the dataset
