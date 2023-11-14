@@ -21,6 +21,7 @@ Included in this package is
 1) a unique data set of wild, natural sex ratio records of reptiles
 2) a phylogeny of species included in the dataset
 3) Code to reformat data, run MCMCglmm models, and model selection for the sex ratio data set
+4) Citation Code document that links citations in teh data set to their references
 
 To  run this code, download the data set and phylogeny and save to your working directory. Then run the code in order to first reformat the data into a binary data set, run that data set through each model, identify the best model through model selection. Running each model takes a handful of hours.
 
@@ -50,6 +51,10 @@ For each record, the data consists of:
 
 This phylogeny was created based on the phylogeny used in Bókony et al. (2019). Any species in this sex ratio data set not in the Bókony et al. (2019) were included using phytools package in R with the placement of each species was based on the same phylogenies Bókony et al. (2019) used to construct their phylogeny (Oaks 2011, Guillon et al. 2012, Pyron et al. 2013)
 
+
+**TSD Analysis Code Description**
+
+Code that takes the sex ratio data set and reformats it into the necessary binary format, then with the phylogeny, runs 4 MCMCglmm models to test competing hypothesis for evolution of temperature-dependent sex determination using model comparison
 
 **Citation Code Description**
 
