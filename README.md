@@ -19,42 +19,54 @@ Instructions on how to use the MCMCglmm package can be found here: https://cran.
 
 Included in this package is 
 1) a unique data set of wild, natural sex ratio records of reptiles
-2) a phylogeny of species included in the dataset
+2) phylogenies of species included in the dataset
 3) Code to reformat data, run MCMCglmm models, and model selection for the sex ratio data set
 4) Citation Code document that links citations in teh data set to their references
 
-To  run this code, download the data set and phylogeny and save to your working directory. Then run the code in order to first reformat the data into a binary data set, run that data set through each model, identify the best model through model selection. Running each model takes a handful of hours.
-
+To  run this code, download the data set and phylogenues and save to your working directory. Then run the code in order to first reformat the data into a binary data set, run that data set through each model, identify the best model through model selection. Running each model takes a handful of hours.
 
 
 **Sex Ratio Dataset Description**
 
-This is a unique data set of 682 sex ratio records representing 182 species of reptiles from 601 populations. The data set was assembled from previously published literature of Bokony et al. (2019), with records from ROSIE, the Reptilian Offspring Sex and Incubation Environment (Krueger and Janzen 2022; ROSIE, 2021; v1.0.0), and personal communications. Inclusion criteria for each sex ratio datum were 1) recorded from a natural, unmanipulated population using 2) non-sex biased capture methods and 3) determined by reliable sexing methods with 4) a recorded sample size and 5) a life stage of sexed individuals.
+This is a unique data set of 584 sex ratio records representing 166 species of reptiles from 409 populations. The data set was assembled from previously published literature of Bokony et al. (2019), with records from ROSIE, the Reptilian Offspring Sex and Incubation Environment (Krueger and Janzen 2022; ROSIE, 2021; v1.0.0), and personal communications. Inclusion criteria for each sex ratio datum were 1) recorded from a natural, unmanipulated population using 2) non-sex biased capture methods and 3) determined by reliable sexing methods with 4) a recorded sample size and 5) a life stage of sexed individuals.
+
+The data is further subdivided into a conservative data where each one of those criteria are clearly met and 'sda' data which includes sex ratio records where the sexing method was not explicitely stated, but the species is sexually dimorphic.
 
 For each record, the data consists of:
 
--  a species name 
-- a population ID
-- taxon: lizard, croc, turtle, snake
-- their citation or citation code
-- life stage: hatchling, juvenile adult
-- sex ratio as proportion male
-- supertaxa: whether the species belongs to a sister clade of crocodilians and turtles ‘crocoturtle’ or squamates and tuatara ’squamatara to test phylogenetic history model
-- life history: whether the species belongs to crocodilians, turtles, and the tuatara ‘CTT’ that exhibit long-lived, late maturing life history, or squamates ’S’ that have short-lived, early maturing life histories to test the life history model
-- sex determination: whether the species has genotypic sex determination (GSD) or temperature-dependent sex determination (TSD)
-- SDM type: type of sex determining mechanism of GSD, TSD Ia, TSD Ib, TSD II
-- sex determination source: reference for sex determining mechanism for the species
-- Notes
+- population ID: an ID value for population of each sex ratio record
+- species: scientific latin name of species
+- Life.Stage: the life stage of either birth (birth.sex.ratio), juvenile (juvenile.sex.ratio), or adult (adult.sex.ratio)
+- Sex.Ratio: the sex ratio presented as proportion male
+- N: sample size for sex ratio record
+- sex.determination: type of sex determining mechanism of either genetic sex determination (GSD) or temperature-dependent sex determination (TSD)
+- SDM.Type: more specific category of sex determining mechanism of either GSD, TSD Ia, or TSD II
+- SuperTaxa: whether the species belongs to a sister clade of crocodilians and turtles (crocoturtle) or squamates (squamata)
+- Model4: category fit for model 4 which lists GSD species as 'GSD' and any TSD species as their taxon (turtle, croc, lizard)
+- Conservative: A Yes/No column indicating whether the record is part of the conservative data set (Y) or is a sexual dimorphism assumed record (N)
+- Citation: citation or citation code. Citation codes can be matched to citations in the 'Citations Codes.csv' file
+- Source: whether the source of the data came from Bokony et al 2018 (Bokony), from the ROSIE data base (ROSIE) or from personal communications (Other)
+- sex.det.source: reference for sex determining mechanism for the species
 
 
 **Phylogeny Description**
 
 This phylogeny was created based on the phylogeny used in Bókony et al. (2019). Any species in this sex ratio data set not in the Bókony et al. (2019) were included using phytools package in R with the placement of each species was based on the same phylogenies Bókony et al. (2019) used to construct their phylogeny (Oaks 2011, Guillon et al. 2012, Pyron et al. 2013)
 
+The phylogeny for species of the conservative data only is called 'conservative full phylogeny.phy'
+The phylogeny for only hatchling and adult conservative data is called 'conservative BA phylogeny.phy'
+The phylogeny for the sda data is called 'ultimate phylogeny.phy'. The species list was the same for the sda data with and without juveniles, therefore only one phylogeny was needed for all sda models.
 
 **TSD Analysis Code Description**
+The code for running models is attached in the file 'Terebiznik et al Code.R'
+This code includes the following steps:
+1. Loading in of necessary packages and data sets
+2. Loading in and formatting phylogenies for use in MCMCglmm models
+3. Creating binary data sets for use in MCMCglmm models
+4. Running models testing our 4 hypothesis using only hatchling and adult data
+5. Model comparisons to identify the best model
+6. Running the best model with juvenile data included
 
-Code that takes the sex ratio data set and reformats it into the necessary binary format, then with the phylogeny, runs 4 MCMCglmm models to test competing hypothesis for evolution of temperature-dependent sex determination using model comparison
 
 **Citation Code Description**
 
