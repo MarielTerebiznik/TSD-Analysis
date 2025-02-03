@@ -1,0 +1,346 @@
+##### Set up ####
+# Load in packages
+library(readr)
+library(tidyverse)
+library(MCMCglmm)
+library(qdapRegex)
+library(MuMIn)
+library(bayestestR)
+
+### Load in sex ratio data
+setwd("~/Desktop/Mariel/Paper/Revisions/July2024 - workstudy data") 
+df <- read_csv("sex_ratio_data.csv")
+df <- filter(df, SDM.Type != "TSD Ib")
+
+ultimate_full <- filter(df, Exclude.Reason %in% c("N", "SDA"))
+
+ultimate <- df %>% 
+  filter(Life.Stage %in% c("birth.sex.ratio", "adult.sex.ratio")) %>% 
+  filter(Exclude.Reason %in% c("N", "SDA"))
+
+# data with all exclusions removed
+conservative_full <- filter(df, Exclude.Ultimate == "N")
+
+conservative <- df %>% 
+  filter(Exclude.Ultimate == "N") %>% 
+  filter(Life.Stage %in% c("birth.sex.ratio", "adult.sex.ratio"))
+
+# Load in phylogeny data
+phylo=read.tree("ultimate phylogeny.phy") 
+inv.phylo = inverseA(phylo, nodes="ALL", scale=TRUE)
+
+phylo_conservative <- read.tree("conservative full phylogeny.phy")
+inv.phylo.conservative <- inverseA(phylo_conservative, nodes = "ALL", scale = TRUE)
+
+phylo_conservativeBA <- read.tree("conservative BA phylogeny.phy")
+inv.phylo.conservativeBA <- inverseA(phylo_conservativeBA, nodes = "ALL", scale = TRUE)
+
+##### Create a binary dataset ####
+binary_ultimate <- function(data){
+  
+  # filter data so it only contains values with sex ratio (double check)
+  temp <- filter(data, !is.na(Sex.Ratio))
+  
+  # create phylo column that is identical to species column (need for model)
+  temp2 <- mutate(temp, phylo = species)
+  
+  # get column for number of males and females, remove those w/o sample size
+  temp3 <- temp2 %>% 
+    mutate(Nmales = round(Sex.Ratio * N)) %>% 
+    mutate(Nfemales = round((1-Sex.Ratio)*N))
+  temp4 <- filter(temp3, !is.na(N))
+  
+  # create empty data frame to fill in
+  binary_data <- data.frame()
+  
+  # for each row in data; convert to binary
+  for(i in 1:nrow(temp4)){
+    row_fill <- temp4[i, ] # get basic information
+    row_fillM <- cbind(row_fill, Sex  = c(1)) # fill in with column added if male
+    row_fillF <- cbind(row_fill, Sex = c(0)) # fill in with column added if female
+    
+    # Get number of each sex reported
+    NMales <- temp4[i, "Nmales"] # number of males (rows needed)
+    NFemales <- temp4[i, "Nfemales"] # number of females(rows needed)
+    
+    # Create new data frame
+    df <- rbind(row_fillM, row_fillF) # get data frame with both ones
+    
+    # Contingency in case a population is reported as 100% male or female
+    if(NMales == 0|NFemales == 0){
+      # If males are 0
+      if(NMales == 0){  # remove male row if no males in this population reported
+        df <- df[-1, ]
+        df_temporary <- as.data.frame(lapply(df, rep, NFemales))
+      }
+      
+      # If Females are 0
+      if(NFemales == 0){df <- df[-2,]
+      df_temporary <- as.data.frame(lapply(df, rep, NMales))
+      } # remove if no females in this population reported
+    }
+    # Create temporary data set with replicated number of males and females
+    else{df_temporary <- as.data.frame(lapply(df, rep, c(NMales, NFemales)))}
+    
+    # Add to total data frame
+    binary_data <- rbind(binary_data, df_temporary)
+    
+  }
+  # fix population id column name
+  names(binary_data)[names(binary_data) == '?..population.ID'] <- 'population.ID'
+  
+  # return data
+  return(binary_data)
+  
+}
+
+# Making data into binary format
+conservative_binary <- binary_ultimate(conservative) # to use in series 1 of models of just birth vs adults
+conservative_binary_full <- binary_ultimate(conservative_full)# to use in  model 2 of best of series of model 1
+
+ultimate_binary <- binary_ultimate(ultimate) # to use in series 1 of models of just birth vs adults
+ultimate_binary_full <- binary_ultimate(ultimate_full)# to use in  model 2 of best of series of model 1
+
+###### NEW MODELS #######
+
+##### model 1.1 single mechanism hypothesis (no TSD Ib)
+prior_SDM <-  list(G = list(G1 = list(V =1, nu = 0.02), G2 = list(V = 1, nu = 0.02)), R = list (V = 1, fix = 1))
+
+# conservative only
+model_conservative1.1<- MCMCglmm(Sex ~ Life.Stage * sex.determination , random=~sex.determination:species +
+                      species:population.ID, rcov=~sex.determination:units, family="categorical", 
+                    ginverse=list(phylo=inv.phylo.conservativeBA$Ainv), prior=prior_SDM, data=conservative_binary,
+                    nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_conservative1.1, file = "revision_conservative_model1.1.Rdata")
+
+# sexual dimorphism included
+model_sda1.1<- MCMCglmm(Sex ~ Life.Stage * sex.determination , random=~sex.determination:species +
+                                   species:population.ID, rcov=~sex.determination:units, family="categorical",
+          ginverse=list(phylo=inv.phylo$Ainv), prior=prior_SDM, data=ultimate_binary,
+                                 nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_sda1.1, file = "revision_sda_model1.1.Rdata")
+
+#### model 1.2 life history/crocoturtle vs lizards
+# confirmed no tuatara data in the dataset
+prior_phyloLH <- list(G = list(G1 = list(V =1, nu = 0.02), G2 = list(V = 1, nu = 0.02)), R = list (V = 1, fix = 1))
+
+#conservative only
+model_conservative1.2 <- MCMCglmm(Sex ~ Life.Stage * SuperTaxa * sex.determination , random= ~SuperTaxa:species +
+                       species:population.ID, rcov=~SuperTaxa:units, family="categorical", 
+                     ginverse=list(phylo=inv.phylo.conservativeBA$Ainv), prior=prior_phyloLH, data=conservative_binary,
+                     nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_conservative1.2, file = "revision_conservative_model1.2.Rdata")
+
+# sexual dimorphism included
+model_sda1.2 <- MCMCglmm(Sex ~ Life.Stage * SuperTaxa * sex.determination , random= ~SuperTaxa:species +
+                                    species:population.ID, rcov=~SuperTaxa:units, family="categorical", 
+                                  ginverse=list(phylo=inv.phylo$Ainv), prior=prior_phyloLH, data=ultimate_binary,
+                                  nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_sda1.2, file = "revision_sda_model1.2.Rdata")
+
+### model 1.3 TSD types for TSD Ia vs TSD II
+prior_TSDtype<- list(G = list(G1 = list(V =1, nu = 0.02), G2=list(V= 1,nu=0.02)), R = list (V = 1, fix = 1)) 
+
+# conservative only
+model_conservative1.3 <-  MCMCglmm(Sex ~ Life.Stage * SDM.Type, random=~SDM.Type:species + species:population.ID,
+                                   rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo.conservativeBA$Ainv),
+                                   prior=prior_TSDtype, data=conservative_binary,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_conservative1.3, file = "revision_conservative_model1.3.Rdata")
+
+# sexual dimorphism inlcuded
+model_sda1.3 <-  MCMCglmm(Sex ~ Life.Stage * SDM.Type, random=~SDM.Type:species + species:population.ID,
+                                   rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo$Ainv),
+                                   prior=prior_TSDtype, data=ultimate_binary,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_sda1.3, file = "revision_sda_model1.3.Rdata")
+
+#### model 1.4 TSD type for crocoturtles vs lizards
+model4_conservative_data <- conservative_binary %>% 
+  mutate(model4 = case_when(
+    SuperTaxa == "crocoturtle" ~ SDM.Type, # if crocoturtles, keep SDM
+    taxon == "snakes" ~ SDM.Type, # if snakes, keep SDM
+    taxon == "lizards" & SDM.Type == "GSD" ~ SDM.Type, # if lizards and GSD, keep SDM
+    taxon == "lizards" & SDM.Type != "GSD" ~ "lizards" # if lizards and TSD, replace with lizar
+  ))
+
+model4_sda_data <- ultimate_binary %>% 
+  mutate(model4 = case_when(
+    SuperTaxa == "crocoturtle" ~ SDM.Type, # if crocoturtles, just use their TSD type
+    taxon == "snakes" ~ SDM.Type, # if snakes, keep as TSD type
+    taxon == "lizards" & SDM.Type == "GSD" ~ SDM.Type, # if lizards and GSD, keep SDM
+    taxon == "lizards" & SDM.Type != "GSD" ~ "lizards" # if lizards and TSD, replace with lizar
+  ))
+
+View(unique(select(model4_conservative_data,SuperTaxa, taxon, SDM.Type, model4))) # confirmation the code worked
+View(unique(select(model4_sda_data,SuperTaxa, taxon, SDM.Type, model4))) # confirmation the code worked
+
+prior_TSDtype<- list(G = list(G1 = list(V =1, nu = 0.02), G2=list(V= 1,nu=0.02)), R = list (V = 1, fix = 1)) 
+
+# conservative only
+model_conservative1.4 <-  MCMCglmm(Sex ~ Life.Stage * model4, random=~model4:species + species:population.ID,
+                      rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo.conservativeBA$Ainv),
+                      prior=prior_TSDtype, data=model4_conservative_data,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_conservative1.4, file = "revision_conservative_model1.4.Rdata")
+
+# sexual dimorphism included
+model_sda1.4 <-  MCMCglmm(Sex ~ Life.Stage * model4, random=~model4:species + species:population.ID,
+                                   rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo$Ainv),
+                                   prior=prior_TSDtype, data=model4_sda_data,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_sda1.4, file = "revision_sda_model1.4.Rdata")
+
+
+##### model 5 
+model5_conservative_data <- conservative_binary %>% 
+  mutate(model5 = case_when(
+    sex.determination == "GSD" ~ "GSD",
+    (sex.determination == "TSD") ~ taxon
+  ))
+
+model5_sda_data <- ultimate_binary %>% 
+  mutate(model5 = case_when(
+    sex.determination == "GSD" ~ "GSD",
+    (sex.determination == "TSD") ~ taxon
+  ))
+
+View(unique(select(model5_conservative_data, taxon, SDM.Type, model5))) # confirmation the code worked
+View(unique(select(model5_sda_data, taxon, SDM.Type, model5))) # confirmation the code worked
+
+prior_TSDtype<- list(G = list(G1 = list(V =1, nu = 0.02), G2=list(V= 1,nu=0.02)), R = list (V = 1, fix = 1)) 
+
+# conservative only
+model_conservative1.5 <-  MCMCglmm(Sex ~ Life.Stage * model5, random=~model5:species + species:population.ID,
+                                   rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo.conservativeBA$Ainv),
+                                   prior=prior_TSDtype, data=model5_conservative_data,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_conservative1.5, file = "revision_conservative_model1.5.Rdata")
+
+# sexual dimorphism included
+model_sda1.5 <-  MCMCglmm(Sex ~ Life.Stage * model5, random=~model5:species + species:population.ID,
+                          rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo$Ainv),
+                           prior=prior_TSDtype, data=model5_sda_data,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_sda1.5, file = "revision_sda_model1.5.Rdata")
+
+
+
+
+#### Best Model (revisions) #
+output_conservative <- model.sel(model_conservative1.1, model_conservative1.2, model_conservative1.3, model_conservative1.4, rank = "DIC")
+
+output_conservative <- model.sel(model_conservative1.1, model_conservative1.2, model_conservative1.3, model_conservative1.4, model_conservative1.5, rank = "DIC")
+output_conservative # best one is model1.4
+
+output_sda <- model.sel(model_sda1.1, model_sda1.2, model_sda1.3, model_sda1.4, model_sda1.5,rank = "DIC")
+output_sda # best one is model1.2
+
+model4_data_full <- conservative_binary_full %>% 
+  mutate(model4 = case_when(
+    SuperTaxa == "crocoturtle" ~ SDM.Type, # if crocoturtles, just use their TSD type
+    taxon == "snakes" ~ SDM.Type, # if snakes, keep as TSD type
+    taxon == "lizards" ~ "lizards" # if lizards, replace TSD type with 'lizards'
+  ))
+
+model_conservative2.1 <-  MCMCglmm(Sex ~ Life.Stage * model4, random=~model4:species + species:population.ID, rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo.conservative$Ainv), prior=prior_TSDtype, data=model4_data_full,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model_conservative2.1, file = "revision_conservative_model2.1.Rdata")
+
+model4_data_full_sda <- ultimate_binary_full %>% 
+  mutate(model4 = case_when(
+    SuperTaxa == "crocoturtle" ~ SDM.Type, # if crocoturtles, just use their TSD type
+    taxon == "snakes" ~ SDM.Type, # if snakes, keep as TSD type
+    taxon == "lizards" ~ "lizards" # if lizards, replace TSD type with 'lizards'
+  ))
+getwd()
+
+model_sda2.2 <-  MCMCglmm(Sex ~ Life.Stage * model4, random=~model4:species + species:population.ID, rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo$Ainv), prior=prior_TSDtype, data=model4_data_full_sda,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+
+save(model_sda2.2, file = "revision_sda_model2.2.Rdata")
+
+#### Full model (B, J, A) for model 5
+model5_conservative_data_full <- conservative_binary_full %>% 
+  mutate(model5 = case_when(
+    sex.determination == "GSD" ~ "GSD",
+    (sex.determination == "TSD") ~ taxon
+  ))
+
+model5_sda_data_full <- ultimate_binary_full %>% 
+  mutate(model5 = case_when(
+    sex.determination == "GSD" ~ "GSD",
+    (sex.determination == "TSD") ~ taxon
+  ))
+
+# conservative model 5 full
+model5_conservative_full <-  MCMCglmm(Sex ~ Life.Stage * model5, random=~model5:species + species:population.ID, rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo.conservative$Ainv), prior=prior_TSDtype, data=model5_conservative_data_full,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model5_conservative_full, file = "revision_conservative_model5_full.Rdata")
+
+# sda model 5 full
+model5_sda_full<-  MCMCglmm(Sex ~ Life.Stage * model5, random=~model5:species + species:population.ID, rcov=~SDM.Type:units, family="categorical", ginverse=list(phylo=inv.phylo$Ainv), prior=prior_TSDtype, data=model5_sda_data_full,nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model5_sda_full, file = "revision_sda_model5_full.Rdata")
+
+
+###### Testing Average Year ####
+# conservative data for hatchlings only
+### year vs sex determination ####
+
+
+conservative_binary$Min.Year <- as.numeric(conservative_binary$Min.Year)
+conservative_binary$Max.Year <- as.numeric(conservative_binary$Max.Year)
+
+year_data <- conservative_binary %>% 
+  filter(SDM.Type != "TSD Ib") %>% 
+  filter(Life.Stage %in% c("birth.sex.ratio", "adult.sex.ratio")) %>% 
+  mutate(AvgYear = (Min.Year+Max.Year)/2) %>% 
+  filter(!is.na(AvgYear))
+
+prior_SDM <-  list(G = list(G1 = list(V =1, nu = 0.02), G2 = list(V = 1, nu = 0.02)), R = list (V = 1, fix = 1))
+
+model.year <- MCMCglmm(Sex ~ AvgYear * sex.determination *Life.Stage, random=~sex.determination:species +
+                         species:population.ID, rcov=~sex.determination:units, family="categorical", 
+                       ginverse=list(phylo=inv.phylo$Ainv), prior=prior_SDM, data=year_data,
+                       nitt=50000,
+                       burnin=3000, thin=50, verbose=F)
+
+save(model.year, file = "revision_model.year.Rdata")
+
+
+model.year2 <- MCMCglmm(Sex ~ AvgYear * SDM.Type *Life.Stage, random=~sex.determination:species +
+                         species:population.ID, rcov=~sex.determination:units, family="categorical", 
+                       ginverse=list(phylo=inv.phylo$Ainv), prior=prior_SDM, data=year_data,
+                       nitt=50000, burnin=3000, thin=50, verbose=F)
+
+
+save(model.year2, file = "revision_model2.year.Rdata")
+
+
+
+
+### Sex ~ year (TSD species only) #####
+  # remove GSD species
+  # combine TSD Ia and TSD II
+  # look at directional trends for hatchling sex ratio
+year_data_TSDonly <- conservative_binary %>% 
+  filter(sex.determination == "TSD") %>% 
+  filter(SDM.Type != "TSD Ib") %>% 
+  filter(Life.Stage == "birth.sex.ratio") %>% 
+  mutate(AvgYear = (Min.Year+Max.Year)/2) %>% 
+  filter(!is.na(AvgYear))
+
+prior_year_TSDonly <-  list(G = list(G1 = list(V =1, nu = 0.02)), R = list (V = 1, fix = 1))
+
+model.yearTSDonly <- MCMCglmm(Sex ~ AvgYear, random= ~species:population.ID, family="categorical", 
+                              ginverse=list(phylo=inv.phylo$Ainv), prior=prior_year_TSDonly, data=year_data_TSDonly,
+                              nitt=50000, burnin=3000, thin=50, verbose=F)
+
+save(model.yearTSDonly, file = "revision_model.yearTSDonly.Rdata")
+
+summary(model.yearTSDonly)
